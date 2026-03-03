@@ -1,0 +1,137 @@
+% Listener-side experiment write-up (standalone build driver)
+% Repository: argumentative_language
+% Compilation (from repo root):
+%   latexmk -pdf -cd writing/listener_side_experiment_writeup/listener_side_experiment_writeup.tex
+%
+% Notes:
+% - This file intentionally does NOT use the apa7 class/template.
+% - APA style here refers to references/citations (BibTeX + apacite), not page layout.
+% - This is a single-file draft (no subfiles).
+
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{todonotes}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{url}
+\usepackage{csquotes}
+
+% Bibliography (APA style; BibTeX-based, no biber)
+\usepackage[natbibapa]{apacite}
+
+\title{Listener Inferences About Argumentative Framing in Quantified Descriptions of Exam Outcomes}
+\author{Author Name\\Affiliation}
+\date{}
+
+\begin{document}
+
+\section{Listener-side experiment: inferring argumentative speaker types}
+\label{sec:listener-side}
+
+While previous experiments in this project focused on the speaker's perspective, this study shifts attention to the listener's side. 
+We examine whether listeners can (1) detect the use of argumentative language, (2) distinguish between different argumentative strategies (low vs.\ informative vs.\ high framing), and (3) infer the speaker's communicative intentions from utterances in context. 
+Experimental items were selected in a model-driven, Bayesian manner, using posterior predictions from our speaker-side production models to identify utterance--state pairs that are diagnostic of distinct speaker types. 
+In a forced-choice task, participants judged which type of speaker was most likely to have produced a given utterance.
+The experiment is preregistered \todo{Add preregistration link}.
+
+\subsection{Method}
+\subsubsection{Participants}
+Participants (N = 240) were recruited online via Prolific.
+Eligibility criteria were age 18+, native English, Prolific approval rate above 95\%, at least five previously completed studies, and no participation in earlier related experiments from this project.
+Participants were paid \pounds 1.50 for an approximately 7-minute study (about \pounds 13/hour).
+
+\subsubsection{Design}
+We investigated one within-participant factor \textsc{Speaker Type} with three levels: informative (\emph{info}), low-framing argumentative (\emph{low-arg}), and high-framing argumentative (\emph{high-arg}).
+Each condition determines a specific pairing of a state $s$ and an utterance $u$.
+Given a $\langle s,u \rangle$ pair, the associated condition establishes the ground truth for the expected (modal) listener response.
+For example, in the \emph{high-arg} condition we expect that \emph{high-arg} will be the modal choice.
+
+\subsubsection{Materials}
+\paragraph{Model-driven item selection.}
+Items were constructed using a model-driven Bayesian procedure based on posterior predictions from prior production-modeling analyses.
+For each candidate utterance--state pair $(u,s)$, we computed a posterior distribution over speaker types via Bayes' rule:
+\begin{equation}
+	p(\sigma \mid s, u, M, \theta) \propto p(u \mid s, M, \theta, \sigma)\, p(\sigma),
+\end{equation}
+where $\sigma \in \{\textsc{low},\textsc{info},\textsc{high}\}$ denotes the speaker's type, $u$ is an utterance, $s$ is a state, $M$ is a model class, and $\theta$ represents posterior draws of model parameters.
+We assumed a uniform prior over speaker types.
+For each model $M$, we first marginalized over $\theta$ to obtain a posterior distribution over speaker types conditional on each utterance--state pair $\langle s,u \rangle$.
+
+Utterance--state pairs were ranked by a discriminability score targeting a speaker type of interest:
+\begin{equation}
+	\Delta(u,s)
+=
+P(\sigma^{*} \mid u,s)
+-
+\sum_{\sigma \neq \sigma^{*}} P(\sigma \mid u,s),
+\end{equation}
+where $\sigma^{*}$ denotes the target speaker type.
+For each speaker type, we selected the top ten $(u,s)$ pairs yielding the highest discriminability scores.
+Finally, we combined results across model classes using a leave-one-out (LOO)-based weighted model average, with weights derived from expected log predictive density (ELPD).
+The aggregated predictions were then passed through a softmax choice rule.
+Because the model-free model achieved the highest predictive accuracy in prior model comparisons, the LOO-weighted average is effectively dominated by its predictions \todo{add reference when merged into main paper}.
+
+\paragraph{Manual review.}
+After selecting items via the procedure above, we manually inspected all candidates to ensure their suitability for use in the experiment.
+Items that were linguistically unnatural or pragmatically odd were replaced by the next-ranked alternatives within the same category.
+
+\paragraph{Lists.}
+This procedure yielded 10 items per condition.
+Items were split evenly into two lists, such that each participant saw only half of the items in a single experimental run.
+
+\subsubsection{Procedure}
+The experiment was framed as a ``Who said this?'' identification task.
+Participants were introduced to a background story: a fictional school had recently administered several exams, and three groups of people had different communicative goals when describing the results.
+The exam results were displayed visually in the same format as in the production experiment.
+In the analysis, each role was mapped onto one of three labels: \emph{high-arg}, \emph{low-arg}, or \emph{info}. \todo{add a screenshot?}
+
+\begin{itemize}
+	\item \textbf{Student} (low-argumentative framing; \emph{low-arg}) wants the exam to sound \emph{harder} (as if students had a low chance of success), because this makes her own performance appear better by comparison.
+	\item \textbf{Teacher} (high-argumentative framing; \emph{high-arg}) wants the exam to sound \emph{easier} (as if students had a high chance of success), because this reflects positively on teaching quality and students' preparedness.
+	\item \textbf{Examiner} (informative; \emph{info}) aims to provide an \emph{objective} and neutral description of the exam, without making it sound particularly hard or easy.
+\end{itemize}
+
+Before the main task, participants completed training trials analogous to those in the production experiment, extended here to cover all three speaker-type conditions.
+On each main trial, participants selected which of the three speaker types was most likely to have produced a given utterance, based on the reported exam outcome.
+
+\subsection{Results}
+
+Results are shown in Figure~\ref{fig:results}.
+The modal response was the most frequently chosen option in all three conditions, though the effect was much more pronounced in the \emph{low-arg} and \emph{high-arg} conditions than in the \emph{info} condition.
+A Bayesian binomial test against chance ($1/3$) showed that the proportion of match responses exceeded chance in the \emph{low-arg} condition ($p_{\text{post}} = 1$) and in the \emph{high-arg} condition ($p_{\text{post}} = 1$), but not credibly in the \emph{info} condition ($p_{\text{post}} = 0.722$).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../../analysis/analysis_exp_listener_side/results_plot.png}
+  \caption{Proportion of response types by speaker-type condition, with bootstrapped 95\% confidence intervals.}
+  \label{fig:results}
+\end{figure}
+
+As preregistered, we fit a Bayesian hierarchical multinomial regression model with by-participant and by-item random intercepts and slopes, and used posterior expected predictions for hypothesis testing.
+Responses were coded as \emph{match} (response matches the condition label), \emph{non-match-1} (the remaining alternative), or \emph{non-match-2} (the ``opposite'' alternative in the \emph{low-arg} and \emph{high-arg} conditions).
+We evaluated the conjunctive hypothesis that \emph{match} is the modal choice in each condition, i.e., that match is more probable than both non-match options.
+The posterior probability of this conjunctive hypothesis was $p_{\text{post}} = 1$ for the \emph{low-arg} condition, $p_{\text{post}} = 0.995$ for the \emph{high-arg} condition, and $p_{\text{post}} < 0.001$ for the \emph{info} condition, indicating strong support for the argumentative conditions but not for the informative one.
+As a more focused analysis, we compared \emph{match} against the ``opposite'' extreme (\emph{non-match-2}) in the \emph{low-arg} and \emph{high-arg} conditions.
+The posterior probability of $\text{match} > \text{non-match-2}$ was $p_{\text{post}} = 1$ for \emph{low-arg} and $p_{\text{post}} = 0.995$ for \emph{high-arg}, further confirming that listeners reliably distinguished between the two argumentative poles.
+
+\subsection{Discussion in bullet points for now}
+\begin{itemize}
+	\item Listeners can reliably detect the use of argumentative language, as evidenced by above-chance performance in the \emph{low-arg} and \emph{high-arg} conditions.
+	\item Listeners can distinguish between different argumentative strategies, as shown by the high proportion of correct identifications in both argumentative conditions and the significant difference from the opposite extreme.
+	\item However, listeners did not show a reliable preference for the informative speaker type in the \emph{info} condition -> \todo{extend this point}
+	\item conotation of right and wrong -> \todo{conduct the analysis with partial utterances with the listner posterior and extend this point}
+	\item infer argumentative strength as gradient \todo{motivate this point by saying this experiment is harder than it looks like?}
+\end{itemize}
+
+\newpage
+\bibliographystyle{apacite}
+\bibliography{../../../paper/RSArg}
+
+\end{document}
