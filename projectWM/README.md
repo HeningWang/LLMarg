@@ -81,35 +81,32 @@ speaker models from Experiment 1.
 ## Repository layout
 
 ```
-LLMarg/
-├── README.md
+projectWM/
+├── README.md                              ← this file
 │
-├── speaker_stimuli.json          ← Exp 1 stimuli (all conditions & arrays)
-├── listener_stimuli.csv          ← Exp 2 stimuli (30 items, 3 conditions)
+├── stimuli/
+│   ├── speaker_stimuli.json               ← Exp 1 stimuli (all conditions & arrays)
+│   └── listener_stimuli.csv               ← Exp 2 stimuli (30 items, 3 conditions)
 │
-├── run_llm_experiment.py         ← skeleton runner for Exp 1 (fill in call_llm)
+├── results/                               ← TODO: raw LLM response CSVs go here
+├── analysis/                              ← TODO: analysis scripts/notebooks go here
 │
-├── results/                      ← auto-created; raw LLM response CSVs go here
-├── analysis/                     ← TODO: add analysis scripts/notebooks here
-│
-├── projectWM/
-│   ├── App.vue                   ← original Vue/magpie frontend for Exp 1
-│   └── paper_CogSci-2026/        ← full paper (LaTeX + PDF)
-│
-└── listener_side_experiment_writeup/
-    └── listener_side_experiment_writeup.tex   ← Exp 2 design & results
+├── App.vue                                ← original Vue/magpie frontend for Exp 1
+├── paper_CogSci-2026/                     ← full paper (LaTeX + PDF)
+└── listener_side_experiment_writeup/      ← Exp 2 design & results (LaTeX + PDF)
 ```
 
 ---
 
 ## Pipeline overview
 
+**Target models:** OpenAI (GPT-4o), Claude (Anthropic), DeepSeek, Gemini (Google)
+
 ```
-speaker_stimuli.json ──► [Job A] LLM speaker experiment ──► results/speaker_<model>.csv
-                                                                    │
-listener_stimuli.csv ──► [Job B] LLM listener experiment ──► results/listener_<model>.csv
-                                                                    │
-                                              [Job C] Analysis & comparison to human data
+speaker_stimuli.json ──► [Job A] LLM speaker experiment ──► results/speaker_<model>.csv ──┐
+                                                                                            ├──► [Job C] Analysis
+listener_stimuli.csv ──► [Job B] LLM listener experiment ──► results/listener_<model>.csv ─┘
+                                                                    × 4 models
 ```
 
 ---
@@ -124,8 +121,8 @@ listener_stimuli.csv ──► [Job B] LLM listener experiment ──► results
 - [ ] Design and pilot the prompt (the key choices: include/exclude the Green Valley
       backstory; show the table as plain text or as ✓/✗ symbols; try chain-of-thought)
 - [ ] Run all 4 matrix-size conditions for ≥ 20 runs per stimulus × framing cell;
-      save one CSV per condition to `results/`
-- [ ] Test at least two models (e.g., GPT-4o and one open-source model) for comparison
+      save one CSV per model per condition to `results/`
+- [ ] Cover all four target models: **OpenAI** (GPT-4o), **Claude** (Anthropic), **DeepSeek**, **Gemini** (Google)
 
 **Inputs:** `speaker_stimuli.json`  
 **Outputs:** `results/speaker_<model>_<condition>.csv`
@@ -142,7 +139,7 @@ produced a given utterance?
 - [ ] Write a prompt that presents: the exam-results table + the utterance +
       a description of the three speaker roles, and asks the LLM to pick one
 - [ ] Run all 30 items for ≥ 20 runs each; save to `results/`
-- [ ] Test the same models used in Job A for direct comparison
+- [ ] Cover all four target models: **OpenAI**, **Claude**, **DeepSeek**, **Gemini**
 
 **Inputs:** `listener_stimuli.csv`  
 **Outputs:** `results/listener_<model>.csv`
