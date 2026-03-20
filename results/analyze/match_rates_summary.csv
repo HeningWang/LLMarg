@@ -1,0 +1,7 @@
+model,condition,is_match
+DeepSeek-V3.2,high,0.42
+DeepSeek-V3.2,info,0.225
+DeepSeek-V3.2,low,0.7
+GPT-4o-mini,high,0.18
+GPT-4o-mini,info,0.72
+GPT-4o-mini,low,0.215
