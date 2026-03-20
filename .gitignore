@@ -36,7 +36,7 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Data files (large files)
+# Data files (large files) - exclude all first
 *.csv
 *.xlsx
 *.png
@@ -44,6 +44,8 @@ Thumbs.db
 # But keep our specific data files
 !listener_stimuli.csv
 !results/analyze/match_rates_summary.csv
+!results/*.csv
+!results/analyze/*.csv
 
 # API keys
 .env
