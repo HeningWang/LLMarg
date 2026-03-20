@@ -163,13 +163,3 @@ produced a given utterance?
       available from the paper authors
 
 ---
-
-### Job D — Open questions to resolve (discuss with supervisor)
-
-- [ ] Should the LLM be given the framing backstory (Green Valley / Riverside)
-      or a more neutral instruction? — affects comparability to human experiment
-- [ ] Temperature setting: use temperature = 0 for deterministic output, or
-      temperature > 0 to sample a distribution over choices?
-- [ ] For the listener experiment: should the model see *both* lists or be
-      restricted to one (as humans were)?
-- [ ] How to handle parse errors (model does not return a valid choice)?
