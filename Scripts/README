@@ -4,8 +4,6 @@
 # 创建并激活虚拟环境
 # venv\Scripts\activate
 
-# 进入文件夹
-# cd venv
 
 # 调用python脚本
 # python listener_experiment.py
