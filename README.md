@@ -68,4 +68,4 @@ python venv/listener_experiment.py
 
 ## 实验结果
 
-详细的实验结果和分析请参考`results/`目录下的文件。
+详细的实验结果和分析请参考`results/`目录下的文件。注意注意，实验结果输出的目录设置可能有点问题，大家自行查看。
