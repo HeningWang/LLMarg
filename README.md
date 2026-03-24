@@ -54,7 +54,7 @@ llm_listener_experiment/
 pip install -r requirements.txt
 ```
 
-2. 配置API密钥（在.env文件中）：
+2. 配置API密钥（在.env文件中,没有的话在Scripts目录下新建一个）：
 ```
 OPENAI_API_KEY=your_key
 ANTHROPIC_API_KEY=your_key
@@ -63,7 +63,7 @@ SILICONFLOW_API_KEY=your_key
 
 3. 运行实验：
 ```bash
-python venv/listener_experiment.py
+python listener_experiment.py
 ```
 
 ## 实验结果

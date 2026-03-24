@@ -1,4 +1,0 @@
-itemID,list,condition,Q1,Q2,A,observation,sentence,run,chosen_speaker,raw_response,timestamp
-1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,1,low,low,2026-03-20T20:52:31.119381
-2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,1,low,low,2026-03-20T20:52:34.286463
-3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,1,high,high,2026-03-20T20:52:37.222063
