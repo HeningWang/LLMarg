@@ -50,3 +50,6 @@ Thumbs.db
 # API keys
 .env
 *.env
+
+
+copy/

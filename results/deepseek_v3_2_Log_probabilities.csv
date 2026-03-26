@@ -1,0 +1,495 @@
+﻿itemID,list,condition,Q1,Q2,A,observation,sentence,prompt_template,temperature,run,chosen_speaker,confidence_logprob,raw_response,logprobs_data,timestamp
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,direct_label,0.2,1,low,,low,,2026-03-23T20:42:52.398312
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,direct_label,0.2,2,low,,low,,2026-03-23T20:42:55.409156
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,direct_label,0.2,1,low,,low,,2026-03-23T20:42:58.980757
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,direct_label,0.2,2,low,,low,,2026-03-23T20:43:04.160369
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,direct_label,0.2,1,high,,high,,2026-03-23T20:43:10.633214
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,direct_label,0.2,2,high,,high,,2026-03-23T20:43:13.946166
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,direct_label,0.2,1,low,,low,,2026-03-23T20:43:19.835255
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,direct_label,0.2,2,low,,low,,2026-03-23T20:43:22.950695
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,direct_label,0.2,1,info,,info,,2026-03-23T20:43:26.078051
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,direct_label,0.2,2,low,,low,,2026-03-23T20:43:29.685758
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,direct_label,0.2,1,low,,low,,2026-03-23T20:43:32.758527
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,direct_label,0.2,2,low,,low,,2026-03-23T20:43:35.827212
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,direct_label,0.2,1,low,,low,,2026-03-23T20:43:38.639806
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,direct_label,0.2,2,low,,low,,2026-03-23T20:43:41.872069
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,direct_label,0.2,1,high,,high,,2026-03-23T20:43:45.225739
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,direct_label,0.2,2,info,,info,,2026-03-23T20:43:48.096095
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,direct_label,0.2,1,low,,low,,2026-03-23T20:43:51.739328
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,direct_label,0.2,2,low,,low,,2026-03-23T20:43:55.140577
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,direct_label,0.2,1,low,,low,,2026-03-23T20:43:58.372017
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,direct_label,0.2,2,low,,low,,2026-03-23T20:44:03.344204
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,direct_label,0.7,1,low,,low,,2026-03-23T20:44:06.604669
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,direct_label,0.7,2,low,,low,,2026-03-23T20:44:33.532465
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,direct_label,0.7,1,low,,low,,2026-03-23T20:44:37.050838
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,direct_label,0.7,2,low,,low,,2026-03-23T20:44:40.842095
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,direct_label,0.7,1,low,,low,,2026-03-23T20:44:43.616965
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,direct_label,0.7,2,info,,info,,2026-03-23T20:44:46.714210
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,direct_label,0.7,1,low,,low,,2026-03-23T20:44:49.828705
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,direct_label,0.7,2,low,,low,,2026-03-23T20:44:53.026855
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,direct_label,0.7,1,high,,high,,2026-03-23T20:44:56.070239
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,direct_label,0.7,2,low,,low,,2026-03-23T20:45:01.121935
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,direct_label,0.7,1,low,,low,,2026-03-23T20:45:04.748497
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,direct_label,0.7,2,low,,low,,2026-03-23T20:45:08.170992
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,direct_label,0.7,1,low,,low,,2026-03-23T20:45:15.309779
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,direct_label,0.7,2,low,,low,,2026-03-23T20:45:18.434468
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,direct_label,0.7,1,high,,high,,2026-03-23T20:45:21.201940
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,direct_label,0.7,2,high,,high,,2026-03-23T20:45:24.287778
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,direct_label,0.7,1,low,,low,,2026-03-23T20:45:27.800700
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,direct_label,0.7,2,low,,low,,2026-03-23T20:45:30.585040
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,direct_label,0.7,1,info,,info,,2026-03-23T20:45:34.269010
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,direct_label,0.7,2,low,,low,,2026-03-23T20:45:37.744367
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,direct_label,1.2,1,low,,low,,2026-03-23T20:45:41.351075
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,direct_label,1.2,2,low,,low,,2026-03-23T20:45:44.591712
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,direct_label,1.2,1,low,,low,,2026-03-23T20:45:47.884389
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,direct_label,1.2,2,info,,info,,2026-03-23T20:45:50.939395
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,direct_label,1.2,1,high,,high,,2026-03-23T20:45:55.018535
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,direct_label,1.2,2,high,,high,,2026-03-23T20:45:58.326710
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,direct_label,1.2,1,low,,low,,2026-03-23T20:46:02.072388
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,direct_label,1.2,2,low,,low,,2026-03-23T20:46:05.947523
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,direct_label,1.2,1,info,,info,,2026-03-23T20:46:08.996301
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,direct_label,1.2,2,low,,low,,2026-03-23T20:46:11.713503
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,direct_label,1.2,1,low,,low,,2026-03-23T20:46:14.763461
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,direct_label,1.2,2,info,,info,,2026-03-23T20:46:17.838661
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,direct_label,1.2,1,low,,low,,2026-03-23T20:46:21.445189
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,direct_label,1.2,2,low,,low,,2026-03-23T20:46:24.575857
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,direct_label,1.2,1,high,,"Since all five students got the same score (9/12)
+*   For an **info** speaker, an objective statement might be ""All students got 9 correct"" or ""Each student got 75% correct.""
+*   For a **high** speaker, describing the results to make the exam sound easy would fit with the given sentence: ""most of the students got most of the answers right"" (most students = 5/5, most answers = 9/12).",,2026-03-23T20:46:38.326048
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,direct_label,1.2,2,high,,high,,2026-03-23T20:46:42.381616
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,direct_label,1.2,1,low,,low,,2026-03-23T20:46:45.358967
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,direct_label,1.2,2,low,,low,,2026-03-23T20:46:49.037306
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,direct_label,1.2,1,info,,info,,2026-03-23T20:46:53.607335
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,direct_label,1.2,2,low,,low,,2026-03-23T20:46:56.703750
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,role_description,0.2,1,info,,"Examiner (info). The sentence is factually true and neutral, matching the objective results.",,2026-03-23T20:47:00.838927
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,role_description,0.2,2,info,,"Examiner (info). The sentence is a neutral, factual description of the results, as all students indeed scored poorly.",,2026-03-23T20:47:06.286079
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,role_description,0.2,1,info,,"Examiner (info). The sentence is a neutral, factual summary of the results (all got some right, but not all right).",,2026-03-23T20:47:10.320457
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,role_description,0.2,2,high,,"Examiner (info). The statement is objectively true but understates the uniformly high scores, which fits a neutral description.",,2026-03-23T20:47:14.431575
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,role_description,0.2,1,high,,"Teacher. The statement downplays the uniformly high scores (all 9/12), making the exam seem easier than the results indicate.",,2026-03-23T20:47:18.812760
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,role_description,0.2,2,high,,"Teacher. The exam was uniformly high (9/12 each), so ""some"" and ""most"" downplays the strong results, making it seem easier.",,2026-03-23T20:47:23.517430
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,role_description,0.2,1,info,,"Examiner (info). The results show all students scored 3/12, which objectively means most answers were wrong.",,2026-03-23T20:47:28.395707
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,role_description,0.2,2,"Invalid: Given that all students scored poorly (3/12), the sentence understates the poor results. This downpl...",,"Given that all students scored poorly (3/12), the sentence understates the poor results. This downplaying aligns most with the **Teacher** goal to make the exam seem easy.",,2026-03-23T20:47:32.901095
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,role_description,0.2,1,info,,"Examiner (info). The statement is factually true and neutral, matching an objective description of the results.",,2026-03-23T20:47:36.912735
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,role_description,0.2,2,info,,"Examiner (info). The statement is a neutral, factual observation about the results, not an evaluation of difficulty.",,2026-03-23T20:47:41.496815
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,role_description,0.2,1,low,,"Examiner (info). The sentence is a neutral, factual observation that matches the uniformly low scores.",,2026-03-23T20:47:46.039471
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,role_description,0.2,2,low,,Examiner (info). The sentence is a neutral factual statement that matches the uniformly low scores.,,2026-03-23T20:47:57.420239
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,role_description,0.2,1,info,,"Given that all students scored poorly (3/12), the statement is factually accurate. This matches the **Examiner (info)** goal of objective description.",,2026-03-23T20:48:03.100288
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,role_description,0.2,2,info,,"Given that all students scored poorly (3/12), the statement is factually accurate. This matches the **Examiner (info)** goal of objective description.",,2026-03-23T20:48:07.855072
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,role_description,0.2,1,high,,"Teacher (high). The results show 75% correct, but the phrasing exaggerates success to make the exam seem easy.",,2026-03-23T20:48:11.736311
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,role_description,0.2,2,high,,"Teacher. The consistent 75% scores are objectively high, but ""most... right"" downplays the 25% wrong, making it seem easier.",,2026-03-23T20:48:16.506401
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,role_description,0.2,1,info,,"Examiner (info). The results show all students scored poorly, so ""most... got some wrong"" is an understated, objective description.",,2026-03-23T20:48:21.375985
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,role_description,0.2,2,"Invalid: Given that all students scored poorly (3/12), the sentence understates the difficulty. This matches ...",,"Given that all students scored poorly (3/12), the sentence understates the difficulty. This matches a **Teacher** trying to make the exam seem easier than it was.",,2026-03-23T20:48:26.878669
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,role_description,0.2,1,high,,"Teacher. The exam was actually easy (all got 9/12), so saying ""some"" right downplays the high success rate.",,2026-03-23T20:48:31.348021
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,role_description,0.2,2,"Invalid: Teacher. The exam was easy (all got 9/12), but the statement downplays success (""some right""), fitti...",,"Teacher. The exam was easy (all got 9/12), but the statement downplays success (""some right""), fitting a teacher wanting to avoid boasting.",,2026-03-23T20:48:35.912420
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,role_description,0.7,1,info,,"Examiner (info). The exam results objectively show all students missing many answers, which matches the sentence without additional spin.",,2026-03-23T20:48:40.104535
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,role_description,0.7,2,info,,"Examiner (info). The statement is factually true and neutral: all scored poorly, but it doesn't exaggerate difficulty or ease.",,2026-03-23T20:48:44.227986
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,role_description,0.7,1,"Invalid: The sentence understates the results (all got 9/12, not just ""some""). A **Teacher** would likely say...",,"The sentence understates the results (all got 9/12, not just ""some""). A **Teacher** would likely say this to make the exam seem easy.",,2026-03-23T20:48:52.667304
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,role_description,0.7,2,high,,"Teacher. ""All"" highlights universal success, making the exam seem easier and more achievable.",,2026-03-23T20:48:57.150305
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,role_description,0.7,1,high,,"Given all students scored 9/12 (75%), ""some"" and ""most"" understates the uniform high success. This fits a **Teacher** downplaying the high results to maintain high standards.",,2026-03-23T20:49:02.820005
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,role_description,0.7,2,info,,"This is an accurate but understated description of uniformly high scores, so the **Examiner (info)** most likely said it.",,2026-03-23T20:49:07.071980
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,role_description,0.7,1,info,,"The exam shows all students performed poorly, so this objective statement matches the **Examiner (info)**.",,2026-03-23T20:49:11.142539
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,role_description,0.7,2,low,,"Examiner (info). The results show all students scored very low, matching an objective description of most answers wrong.",,2026-03-23T20:49:15.579977
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,role_description,0.7,1,high,,"The exam results show high success (9/12 each). A **teacher** would likely say this to highlight that no one completely failed, making the exam seem easy.",,2026-03-23T20:49:20.553736
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,role_description,0.7,2,info,,Examiner (info). The sentence states a fact that is objectively true from the results (all scored 9/12).,,2026-03-23T20:49:24.282184
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,role_description,0.7,1,info,,"Examiner (info). The results are uniformly poor, so this factually neutral statement fits the examiner's objective goal.",,2026-03-23T20:49:29.442657
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,role_description,0.7,2,info,,"Examiner (info). The sentence is a neutral, objective fact that matches the exam results.",,2026-03-23T20:49:33.276244
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,role_description,0.7,1,info,,"The exam shows all students did poorly, so the sentence is factually accurate, not exaggerating difficulty. This fits the **Examiner (info)** giving an objective description.",,2026-03-23T20:49:39.014058
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,role_description,0.7,2,info,,"Examiner (info). The sentence is a straightforward, objective summary of the poor results (3/12 is ""most answers wrong"").",,2026-03-23T20:49:43.008035
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,role_description,0.7,1,"Invalid: Teacher. The results show a uniform 75% score, which is good but not ""most answers right"" for most s...",,"Teacher. The results show a uniform 75% score, which is good but not ""most answers right"" for most students, so the teacher is exaggerating success.",,2026-03-23T20:49:47.274925
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,role_description,0.7,2,high,,"Teacher. With all students scoring 9/12 (75%), ""most got most right"" frames this high, consistent success as easy.",,2026-03-23T20:49:52.657766
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,role_description,0.7,1,Invalid: Teacher. The statement downplays the uniformly poor results (only 3/12 correct for everyone) to make...,,Teacher. The statement downplays the uniformly poor results (only 3/12 correct for everyone) to make the exam seem easier.,,2026-03-23T20:49:57.169477
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,role_description,0.7,2,Invalid: **Teacher** - minimizing failure (actually all did poorly) to make exam seem easier.,,**Teacher** - minimizing failure (actually all did poorly) to make exam seem easier.,,2026-03-23T20:50:01.677911
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,role_description,0.7,1,high,,"Teacher. They are downplaying a consistently high performance (9/12 for all) with vague language like ""most"" and ""some,"" making it seem easier.",,2026-03-23T20:50:07.238241
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,role_description,0.7,2,high,,"Examiner (info). The statement is objectively true, since 9 out of 12 qualifies as ""most"" and ""some,"" but it downplays the consistently high scores.",,2026-03-23T20:50:12.278643
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,role_description,1.2,1,"Invalid: Examiner. The results show every student got 9 answers wrong, so the sentence is an objective fact, ...",,"Examiner. The results show every student got 9 answers wrong, so the sentence is an objective fact, not an exaggeration.",,2026-03-23T20:50:16.195937
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,role_description,1.2,2,"Invalid: This understates the poor results (only ""some wrong""), making the exam seem easier, so it's likely t...",,"This understates the poor results (only ""some wrong""), making the exam seem easier, so it's likely the **Teacher**.",,2026-03-23T20:50:20.604272
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,role_description,1.2,1,"Invalid: Teacher. ""Some"" downplays solid 9/12 scores, making the exam seem easier.",,"Teacher. ""Some"" downplays solid 9/12 scores, making the exam seem easier.",,2026-03-23T20:50:28.211213
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,role_description,1.2,2,high,,"This understatement downplays the uniform high scores, so the speaker is most likely the **Teacher** trying to make the exam seem easy.",,2026-03-23T20:50:32.729826
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,role_description,1.2,1,high,,"Examiner. The actual results (everyone got 9/12) are almost uniformly high, so ""some...most"" is a slightly understated but factually permissible objective description.",,2026-03-23T20:50:37.100214
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,role_description,1.2,2,high,,"The exam result shows all students got exactly 9/12 right.  
+The vague ""some...most"" downplays this uniform high score.  
+That aligns with the **Teacher's** goal to make the exam seem easy.",,2026-03-23T20:50:43.678474
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,role_description,1.2,1,"Invalid: Neither teacher nor examiner fits because the exam results are uniform (all failing badly), not ""som...",,"Neither teacher nor examiner fits because the exam results are uniform (all failing badly), not ""some."" This matches the student goal - exaggerating difficulty - by understating the actual failure rate.",,2026-03-23T20:50:48.821987
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,role_description,1.2,2,"Invalid: Examiner. The actual results (all 3/12) match the objective, factual statement that some students go...",,"Examiner. The actual results (all 3/12) match the objective, factual statement that some students got most answers wrong.",,2026-03-23T20:50:53.272690
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,role_description,1.2,1,info,,"**Examiner (objective info)** - The sentence is a simple factual observation about the group's results, not judging difficulty.",,2026-03-23T20:50:57.567128
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,role_description,1.2,2,high,,"The results show consistent high scores, yet the statement focuses on an irrelevant failure. This misleading emphasis is most consistent with a **Teacher** trying to downplay the challenge.",,2026-03-23T20:51:02.007718
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,role_description,1.2,1,info,,Most likely **Examiner (info)**. The statement objectively highlights a particular result from the poor exam scores.,,2026-03-23T20:51:06.005036
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,role_description,1.2,2,low,,"Examiner (info). The sentence states an objective fact, matching the uniformly low scores and avoiding exaggeration.",,2026-03-23T20:51:10.305327
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,role_description,1.2,1,low,,"Examiner. The sentence objectively states the exam result, as almost all scored low (3/12). It's not exaggerating difficulty or ease.",,2026-03-23T20:51:15.902089
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,role_description,1.2,2,"Invalid: Teacher. With all students scoring poorly, the teacher downplays failure by making it sound common.",,"Teacher. With all students scoring poorly, the teacher downplays failure by making it sound common.",,2026-03-23T20:51:29.816204
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,role_description,1.2,1,high,,"Examiner (info) or Teacher (high). The statement factually describes the 75% pass rate, which could be impartial or used to emphasize ease. Student is unlikely.",,2026-03-23T20:51:45.720518
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,role_description,1.2,2,high,,"Teacher. All students got the same high score (9/12), so claiming ""most got most right"" downplays the uniform success to make the exam seem easy.",,2026-03-23T20:52:09.466955
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,role_description,1.2,1,low,,"Examiner (info). The results show all students scored low, so ""most... wrong"" is an objective understatement, not exaggerating difficulty.",,2026-03-23T20:53:02.607613
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,role_description,1.2,2,low,,"Examiner (info). The statement is neutral and factually accurate (everyone scored low, so all got many answers wrong).  
+
+Teacher or student would likely exaggerate for effect.",,2026-03-23T20:53:29.594461
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,role_description,1.2,1,high,,"A teacher aiming to downplay success. ""Most"" and ""some"" minimize that 5/5 students got a high score (9/12).",,2026-03-23T20:53:39.183276
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,role_description,1.2,2,info,,"Examiner (info). The objectively accurate ""most"" and ""some"" best match the uniform 75% score, without framing it as easy or hard.",,2026-03-23T20:53:50.917224
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,chain_of_thought,0.2,1,high,,"The results show all students got most answers wrong, but the sentence minimizes failure.
+Final label: high",,2026-03-23T20:54:02.059029
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,chain_of_thought,0.2,2,ERROR,,Error: RetryError[<Future at 0x251a2a77400 state=finished raised APITimeoutError>],,2026-03-23T20:54:57.337080
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,chain_of_thought,0.2,1,low,,"The results show uniform high success, but ""some"" downplays this achievement.
+Final label: low",,2026-03-23T20:55:01.497548
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,chain_of_thought,0.2,2,low,,"The results show perfect uniform success, but ""some"" understates this achievement.  
+Final label: low",,2026-03-23T20:55:05.575697
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,chain_of_thought,0.2,1,high,,"The results show all students got most answers right, not just some.
+Final label: high",,2026-03-23T20:55:09.896009
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,chain_of_thought,0.2,2,low,,"The results show all students got 9/12, which is ""most answers right"" but understates the uniform success.
+Final label: low",,2026-03-23T20:55:14.692439
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,chain_of_thought,0.2,1,info,,"The results show all students got most answers wrong, matching the sentence's objective framing.
+Final label: info",,2026-03-23T20:55:23.997330
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,chain_of_thought,0.2,2,info,,"The results show all students got most answers wrong, matching the sentence's objective framing.
+Final label: info",,2026-03-23T20:55:29.240920
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,chain_of_thought,0.2,1,low,,"The results show uniform high success, but the sentence highlights a negative extreme.
+Final label: low",,2026-03-23T20:55:33.235722
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,chain_of_thought,0.2,2,low,,"The exam shows all students scored high, but the sentence highlights no total failure.
+Final label: low",,2026-03-23T20:55:37.922481
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,chain_of_thought,0.2,1,info,,"The results show uniform low scores, but the statement is a neutral factual observation.
+Final label: info",,2026-03-23T20:55:41.604506
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,chain_of_thought,0.2,2,info,,"The results show uniform low scores, so stating none got all right is objective reporting.
+Final label: info",,2026-03-23T20:56:15.881876
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,chain_of_thought,0.2,1,low,,"The results show all students scored poorly, so the sentence exaggerates failure.
+Final label: low",,2026-03-23T20:56:26.013198
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,chain_of_thought,0.2,2,low,,"The results show all students scored poorly, matching a low-framing speaker.
+Final label: low",,2026-03-23T20:56:29.809910
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,chain_of_thought,0.2,1,info,,"The results show all students got 9/12, which objectively supports the statement.  
+Final label: info",,2026-03-23T20:56:34.254785
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,chain_of_thought,0.2,2,low,,"The results show all students scored identically high (9/12), so ""most...most"" understates the uniform success.
+Final label: low",,2026-03-23T20:56:44.173642
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,chain_of_thought,0.2,1,high,,"The results show all students got most answers wrong, but ""some"" downplays the difficulty.
+Final label: high",,2026-03-23T20:56:51.529748
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,chain_of_thought,0.2,2,low,,"The results show all students got most answers wrong, making the exam sound hard.
+Final label: low",,2026-03-23T20:56:55.844365
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,chain_of_thought,0.2,1,low,,"The results show all students got 9/12, not ""most"" or ""some,"" which understates success.
+Final label: low",,2026-03-23T20:57:00.599382
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,chain_of_thought,0.2,2,high,,"The results show all students got most answers right, not just some.
+Final label: high",,2026-03-23T20:57:15.636028
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,chain_of_thought,0.7,1,low,,"The results show uniform low scores, so highlighting wrong answers downplays success.
+Final label: low",,2026-03-23T20:57:20.088361
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,chain_of_thought,0.7,2,low,,"The results show all students got most answers wrong, suggesting a low-framing speaker.
+Final label: low",,2026-03-23T20:57:29.769356
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,chain_of_thought,0.7,1,low,,"The results show uniform high success, but the sentence vaguely understates it.
+Final label: low",,2026-03-23T20:57:34.012252
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,chain_of_thought,0.7,2,low,,"Analysis: The sentence understates the uniformly high scores, framing them as merely partial success.
+Final label: low",,2026-03-23T20:57:50.122875
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,chain_of_thought,0.7,1,low,,"The result shows all students got 9/12, not just some. This understates success.
+Final label: low",,2026-03-23T20:58:12.705296
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,chain_of_thought,0.7,2,low,,"The exam shows all students got most answers right, so ""some"" understates the high success.  
+Final label: low",,2026-03-23T20:58:28.543934
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,chain_of_thought,0.7,1,high,,"Analysis: The exam results show all students performed poorly, so saying ""some"" got most wrong understates the failure rate.
+Final label: high",,2026-03-23T20:58:44.894765
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,chain_of_thought,0.7,2,high,,"All students scored low, so ""some got most wrong"" understates failure, framing it easier.
+Final label: high",,2026-03-23T20:59:01.177373
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,chain_of_thought,0.7,1,low,,"The results show perfect uniformity, but the statement focuses only on avoiding total failure.
+Final label: low",,2026-03-23T20:59:04.984381
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,chain_of_thought,0.7,2,low,,"The exam was very easy but the sentence emphasizes a negative extreme.  
+Final label: low",,2026-03-23T20:59:11.740473
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,chain_of_thought,0.7,1,info,,"The exam shows all students scored poorly, but the sentence neutrally states a factual detail.
+Final label: info",,2026-03-23T20:59:16.100747
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,chain_of_thought,0.7,2,info,,"The results are uniformly poor, but the statement neutrally reports a fact.
+Final label: info",,2026-03-23T20:59:21.194311
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,chain_of_thought,0.7,1,low,,"The results show all students scored poorly, contradicting ""most got most wrong"" as an understatement.
+Final label: low",,2026-03-23T20:59:25.869238
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,chain_of_thought,0.7,2,low,,"The results show all students scored poorly, matching a low-framing speaker.
+Final label: low",,2026-03-23T21:00:11.902546
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,chain_of_thought,0.7,1,high,,"[Analysis: All five students got 9/12 (75%), which objectively is ""most.""]
+Final label: high",,2026-03-23T21:00:36.000550
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,chain_of_thought,0.7,2,high,,"The results show all students scored high, making the exam seem easy.
+Final label: high",,2026-03-23T21:00:51.718992
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,chain_of_thought,0.7,1,low,,"The results show all students got most answers wrong, not just some.
+Final label: low",,2026-03-23T21:01:00.248560
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,chain_of_thought,0.7,2,low,,"The results show all students scored poorly, but ""most"" and ""some"" softens this, suggesting a low framing.
+Final label: low",,2026-03-23T21:01:41.336431
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,chain_of_thought,0.7,1,low,,"The results show all students scored high, but the sentence downplays success.  
+Final label: low",,2026-03-23T21:02:00.335392
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,chain_of_thought,0.7,2,ERROR,,Error: RetryError[<Future at 0x251a2a77df0 state=finished raised APITimeoutError>],,2026-03-23T21:02:55.531609
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,chain_of_thought,1.2,1,info,,"Analysis: Results show all students exactly 3/12 correct, objectively meaning all got many wrong.
+Final label: info",,2026-03-23T21:03:19.505499
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,chain_of_thought,1.2,2,low,,"The statement notes a universal flaw but understates the near-total failure, leaning low.
+Final label: low",,2026-03-23T21:03:36.471605
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,chain_of_thought,1.2,1,low,,"The average success rate is 75%, which is objectively high but the statement downplays it.  
+Final label: low",,2026-03-23T21:03:50.428737
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,chain_of_thought,1.2,2,low,,"The results were uniformly high, so ""some"" minimizes the success.
+Final label: low",,2026-03-23T21:03:54.745993
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,chain_of_thought,1.2,1,info,,"Some students did, but all got the same high score of 9/12.  
+Final label: info",,2026-03-23T21:04:05.047415
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,chain_of_thought,1.2,2,low,,"The exam had perfect homogeneous success, not ""some"" and ""most"". This frames it as less successful.
+Final label: low",,2026-03-23T21:04:15.229420
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,chain_of_thought,1.2,1,info,,"[One sentence analysis, max 20 words]
+A factual, moderate description that omits the test's uniform total failure.
+
+Final label: info",,2026-03-23T21:04:19.858776
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,chain_of_thought,1.2,2,low,,"The results show all students got only 3 correct, which contradicts ""some"" and ""most wrong.""
+Final label: low",,2026-03-23T21:04:34.692570
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,chain_of_thought,1.2,1,high,,"The results show high uniform success, so highlighting no total failure suggests emphasizing ease.
+Final label: high",,2026-03-23T21:04:44.392161
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,chain_of_thought,1.2,2,low,,"The result shows all did well, but the sentence emphasizes no total failure.  
+Final label: low",,2026-03-23T21:05:19.037494
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,chain_of_thought,1.2,1,info,,"The exam results show uniformly poor performance, which the sentence neutrally observes.
+Final label: info",,2026-03-23T21:05:27.655065
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,chain_of_thought,1.2,2,low,,"[All students did poorly, yet speaker highlights no perfect scores.]        
+Final label: low",,2026-03-23T21:05:37.173118
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,chain_of_thought,1.2,1,low,,"The results show all students scored poorly, so emphasizing wrong answers frames the exam as hard.
+Final label: low",,2026-03-23T21:05:41.343989
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,chain_of_thought,1.2,2,low,,"The results show all students scored poorly, but the statement exaggerates failure beyond objective data.
+Final label: low",,2026-03-23T21:05:58.434042
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,chain_of_thought,1.2,1,info,,"The results show all students scoring 9/12, which objectively supports the sentence.  
+Final label: info",,2026-03-23T21:06:02.916057
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,chain_of_thought,1.2,2,info,,"The results show all students got 9/12 right, objectively supporting the sentence.  
+Final label: info",,2026-03-23T21:06:07.034846
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,chain_of_thought,1.2,1,high,,"Average is poor; wording downplays failure which matches a high perspective.
+Final label: high",,2026-03-23T21:06:21.494250
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,chain_of_thought,1.2,2,high,,"[All scored low, ""most got some wrong"" understates failure.]
+Final label: high",,2026-03-23T21:06:51.261261
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,chain_of_thought,1.2,1,high,,"The results show all students scored 9/12, making ""most...some"" a downplaying high-success framing.
+Final label: high",,2026-03-23T21:06:56.640364
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,chain_of_thought,1.2,2,low,,"Analysis: Results show all students scored high, but ""most"" and ""some"" downplays success.
+Final label: low",,2026-03-23T21:07:00.494728
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,structured_justification,0.2,1,info,,"Evidence: All students scored 3/12, meaning all got many wrong.
+Label: info",,2026-03-23T21:07:04.624388
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,structured_justification,0.2,2,low,,"Evidence: All students scored 3/12, meaning all got many wrong.
+Label: low",,2026-03-23T21:07:08.070678
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,structured_justification,0.2,1,high,,"Evidence: All students scored 9/12, a high success rate.
+Label: high",,2026-03-23T21:07:12.684214
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,structured_justification,0.2,2,low,,"Evidence: All students scored 9 out of 12, a high success rate.
+Label: low",,2026-03-23T21:07:16.643437
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,structured_justification,0.2,1,high,,"Evidence: All students got 9 out of 12 correct.
+Label: high",,2026-03-23T21:07:20.210320
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,structured_justification,0.2,2,high,,"Evidence: All five students got exactly 9 out of 12 correct.
+Label: high",,2026-03-23T21:08:05.048393
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,structured_justification,0.2,1,low,,"Evidence: All students got 9 out of 12 answers wrong.
+Label: low",,2026-03-23T21:08:09.754012
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,structured_justification,0.2,2,low,,"Evidence: All students got 9 out of 12 answers wrong.
+Label: low",,2026-03-23T21:09:24.570705
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,structured_justification,0.2,1,low,,"Evidence: All students scored 9 out of 12 correct.
+Label: low",,2026-03-23T21:09:27.940671
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,structured_justification,0.2,2,low,,"Evidence: All students scored 9 out of 12 correct.
+Label: low",,2026-03-23T21:09:37.029224
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,structured_justification,0.2,1,info,,"Evidence: All students scored 3/12, far from perfect.
+Label: info",,2026-03-23T21:09:41.160378
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,structured_justification,0.2,2,info,,"Evidence: All students scored 3/12, far from a perfect score.
+Label: info",,2026-03-23T21:09:45.165972
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,structured_justification,0.2,1,low,,"Evidence: All students got 9 out of 12 answers wrong.
+Label: low",,2026-03-23T21:09:53.777490
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,structured_justification,0.2,2,low,,"Evidence: All students got only 3 out of 12 correct.
+Label: low",,2026-03-23T21:10:01.299650
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,structured_justification,0.2,1,high,,"Evidence: All five students scored 9 out of 12 correct.
+Label: high",,2026-03-23T21:10:05.574317
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,structured_justification,0.2,2,high,,"Evidence: All five students got 9 out of 12 correct.
+Label: high",,2026-03-23T21:10:09.487486
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,structured_justification,0.2,1,info,,"Evidence: All students got 9 out of 12 answers wrong.
+Label: info",,2026-03-23T21:10:13.121166
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,structured_justification,0.2,2,low,,"Evidence: All students got 75% wrong, scoring 3/12.
+Label: low",,2026-03-23T21:10:16.974375
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,structured_justification,0.2,1,low,,"Evidence: All five students got 9 out of 12 correct.
+Label: low",,2026-03-23T21:10:20.948560
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,structured_justification,0.2,2,low,,"Evidence: All five students got 9 out of 12 correct.
+Label: low",,2026-03-23T21:10:25.414841
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,structured_justification,0.7,1,low,,"Evidence: All students scored low, 3 out of 12 correct.
+Label: low",,2026-03-23T21:10:29.440186
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,structured_justification,0.7,2,info,,"Evidence: All students scored 3 correct, so all got many wrong.
+Label: info",,2026-03-23T21:10:33.938796
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,structured_justification,0.7,1,high,,"Evidence: All students scored 9/12, a high success rate.
+Label: high",,2026-03-23T21:10:37.898355
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,structured_justification,0.7,2,high,,"Evidence: All students scored 9 out of 12, a high success rate.
+Label: high",,2026-03-23T21:10:59.712559
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,structured_justification,0.7,1,high,,"Evidence: All students got 9/12 correct.
+Label: high",,2026-03-23T21:11:05.631455
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,structured_justification,0.7,2,high,,"Evidence: All students got 9 out of 12 correct.
+Label: high",,2026-03-23T21:11:09.254585
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,structured_justification,0.7,1,low,,"Evidence: All five students got exactly 3 out of 12 correct.
+Label: low",,2026-03-23T21:11:13.497807
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,structured_justification,0.7,2,low,,"Evidence: All students got 3/12 correct, meaning 9 wrong.
+Label: low",,2026-03-23T21:11:16.963495
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,structured_justification,0.7,1,low,,"Evidence: All students scored 9/12, which is high success.
+Label: low",,2026-03-23T21:11:20.599937
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,structured_justification,0.7,2,low,,"Evidence: All students scored 9/12, which is high success.
+Label: low",,2026-03-23T21:11:24.557277
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,structured_justification,0.7,1,info,,"Evidence: All students scored 3/12, which is low.
+Label: info",,2026-03-23T21:11:28.000251
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,structured_justification,0.7,2,info,,"Evidence: All students scored low, only 3 out of 12 correct.
+Label: info",,2026-03-23T21:11:31.545961
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,structured_justification,0.7,1,low,,"Evidence: All students scored 3/12, which is low.
+Label: low",,2026-03-23T21:11:36.465568
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,structured_justification,0.7,2,info,,"Evidence: All students got 3/12 correct, meaning 9 wrong.
+Label: info",,2026-03-23T21:11:40.894227
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,structured_justification,0.7,1,high,,"Evidence: All five students scored 9 out of 12 correct.
+Label: high",,2026-03-23T21:11:45.054756
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,structured_justification,0.7,2,high,,"Evidence: All five students scored 9 out of 12 correct.
+Label: high",,2026-03-23T21:11:49.660690
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,structured_justification,0.7,1,info,,"Evidence: All students got 9 out of 12 answers wrong.
+Label: info",,2026-03-23T21:11:53.888531
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,structured_justification,0.7,2,info,,"Evidence: All students got 9 out of 12 answers wrong.
+Label: info",,2026-03-23T21:11:57.833965
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,structured_justification,0.7,1,low,,"Evidence: All students scored 9/12, which is high.
+Label: low",,2026-03-23T21:12:02.401137
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,structured_justification,0.7,2,low,,"Evidence: All students scored 9/12, which is high.
+Label: low",,2026-03-23T21:12:05.887872
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,structured_justification,1.2,1,info,,"Evidence: All students scored 3 correct, meaning 9 wrong.
+Label: info",,2026-03-23T21:12:09.219055
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,structured_justification,1.2,2,low,,"Evidence: All students scored 3/12, meaning all got many wrong.
+Label: low",,2026-03-23T21:12:14.399970
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,structured_justification,1.2,1,low,,"Evidence: All five students got 9 out of 12 correct.
+Label: low",,2026-03-23T21:12:17.798069
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,structured_justification,1.2,2,info,,"Evidence: All students got an equal high score of 9/12.
+Label: info",,2026-03-23T21:12:22.314190
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,structured_justification,1.2,1,high,,"Evidence: All five students received exactly 9 out of 12 correct.
+Label: high",,2026-03-23T21:12:26.381295
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,structured_justification,1.2,2,high,,"Evidence: All students achieved the same high score of 9/12.
+Label: high",,2026-03-23T21:12:30.352869
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,structured_justification,1.2,1,info,,"Evidence: All five students answered only 3 of 12 questions correctly.
+Label: info",,2026-03-23T21:12:36.590001
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,structured_justification,1.2,2,low,,"Evidence: All five students got exactly 3 out of 12 correct.
+Label: low",,2026-03-23T21:12:40.317509
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,structured_justification,1.2,1,low,,"Evidence: All students scored high, 9 out of 12 correct.
+Label: low",,2026-03-23T21:12:44.264482
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,structured_justification,1.2,2,low,,"Evidence: All five students got 9 out of 12 correct.
+Label: low",,2026-03-23T21:12:48.278688
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,structured_justification,1.2,1,info,,"Evidence: All students scored 3/12, so ""none"" is factually correct.
+Label: info",,2026-03-23T21:12:52.234014
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,structured_justification,1.2,2,info,,"Evidence: All students scored only 3 out of 12 correct.
+Label: info",,2026-03-23T21:12:56.444646
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,structured_justification,1.2,1,info,,"Evidence: All five students scored 3/12, a 25% success rate.
+Label: info",,2026-03-23T21:13:03.111934
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,structured_justification,1.2,2,low,,"Evidence: All students got 3 out of 12 correct.
+Label: low",,2026-03-23T21:13:06.946285
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,structured_justification,1.2,1,high,,"Evidence: All five students got 9 out of 12 correct.
+Label: high",,2026-03-23T21:13:10.684065
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,structured_justification,1.2,2,high,,"Evidence: All five students got 9 out of 12 correct.
+Label: high",,2026-03-23T21:13:14.387846
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,structured_justification,1.2,1,low,,"Evidence: All students got exactly 3 out of 12 questions correct.
+Label: low",,2026-03-23T21:13:18.304505
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,structured_justification,1.2,2,low,,"Evidence: All students got the same low score (3/12).
+Label: low",,2026-03-23T21:13:21.822361
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,structured_justification,1.2,1,low,,"Evidence: All students got 9 out of 12 questions correct.
+Label: low",,2026-03-23T21:13:25.218685
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,structured_justification,1.2,2,low,,"Evidence: All five students got exactly 9 out of 12 correct.
+Label: low",,2026-03-23T21:13:29.568918
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,calibration,0.2,1,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:13:33.096040
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,calibration,0.2,2,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:13:37.177670
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,calibration,0.2,1,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:13:40.488658
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,calibration,0.2,2,high,0.7,"Label: high
+Confidence: 0.7",,2026-03-23T21:13:45.967952
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,calibration,0.2,1,high,0.7,"Label: high
+Confidence: 0.7",,2026-03-23T21:13:49.745070
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,calibration,0.2,2,high,0.8,"Label: high
+Confidence: 0.8",,2026-03-23T21:13:53.205610
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,calibration,0.2,1,low,0.9,"Label: low
+Confidence: 0.9",,2026-03-23T21:13:57.458397
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,calibration,0.2,2,low,0.9,"Label: low
+Confidence: 0.9",,2026-03-23T21:14:01.826403
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,calibration,0.2,1,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:14:05.547057
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,calibration,0.2,2,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:14:11.457584
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,calibration,0.2,1,info,0.9,"Label: info
+Confidence: 0.9",,2026-03-23T21:14:19.781731
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,calibration,0.2,2,info,0.9,"Label: info
+Confidence: 0.9",,2026-03-23T21:14:23.454472
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,calibration,0.2,1,low,0.9,"Label: low
+Confidence: 0.9",,2026-03-23T21:14:27.342168
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,calibration,0.2,2,low,0.9,"Label: low
+Confidence: 0.9",,2026-03-23T21:14:30.466254
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,calibration,0.2,1,high,0.9,"Label: high
+Confidence: 0.9",,2026-03-23T21:14:36.093040
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,calibration,0.2,2,high,0.9,"Label: high
+Confidence: 0.9",,2026-03-23T21:14:39.864511
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,calibration,0.2,1,info,0.7,"Label: info
+Confidence: 0.7",,2026-03-23T21:14:47.358221
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,calibration,0.2,2,low,0.8,"Label: low
+Confidence: 0.8",,2026-03-23T21:14:50.802618
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,calibration,0.2,1,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:14:54.104185
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,calibration,0.2,2,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:14:57.822893
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,calibration,0.7,1,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:15:01.729449
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,calibration,0.7,2,low,0.8,"Label: low
+Confidence: 0.8",,2026-03-23T21:15:05.657358
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,calibration,0.7,1,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:15:09.217885
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,calibration,0.7,2,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:15:16.095694
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,calibration,0.7,1,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:15:19.298014
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,calibration,0.7,2,high,0.7,"Label: high
+Confidence: 0.7",,2026-03-23T21:15:24.335950
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,calibration,0.7,1,low,0.9,"Label: low
+Confidence: 0.9",,2026-03-23T21:15:28.356077
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,calibration,0.7,2,low,0.8,"Label: low
+Confidence: 0.8",,2026-03-23T21:15:36.564058
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,calibration,0.7,1,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:15:42.411770
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,calibration,0.7,2,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:15:47.312659
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,calibration,0.7,1,info,0.9,"Label: info
+Confidence: 0.9",,2026-03-23T21:15:50.409172
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,calibration,0.7,2,info,0.9,"Label: info
+Confidence: 0.9",,2026-03-23T21:15:54.824362
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,calibration,0.7,1,low,0.9,"Label: low
+Confidence: 0.9",,2026-03-23T21:15:57.883870
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,calibration,0.7,2,high,0.3,"Label: high
+Confidence: 0.3",,2026-03-23T21:16:02.072344
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,calibration,0.7,1,high,0.8,"Label: high
+Confidence: 0.8",,2026-03-23T21:16:05.056093
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,calibration,0.7,2,high,0.8,"Label: high
+Confidence: 0.8",,2026-03-23T21:16:08.726316
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,calibration,0.7,1,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:16:11.944279
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,calibration,0.7,2,info,0.7,"Label: info
+Confidence: 0.7",,2026-03-23T21:16:15.794360
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,calibration,0.7,1,low,0.8,"Label: low
+Confidence: 0.8",,2026-03-23T21:16:19.347763
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,calibration,0.7,2,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:16:23.020710
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,calibration,1.2,1,high,,"Looking at the exam results: every student got 3 out of 12 correct, which means all students got 9 out of 12 wrong.  
+The sentence ""all of the students got some of the answers wrong"" understates the difficulty - it's technically true but minimizes how poorly they did (they got *most* wrong, not just ""some"").  
+This phrasing makes the exam sound less difficult than it actually was, which is characteristic of the **high** (Teacher) type",,2026-03-23T21:16:30.415279
+1,1,info,all,some,wrong,"[3, 3, 3, 3, 3]",all of the students got some of the answers wrong,calibration,1.2,2,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:16:34.307287
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,calibration,1.2,1,info,0.7,"Label: info
+Confidence: 0.7",,2026-03-23T21:16:38.110535
+2,2,info,all,some,right,"[9, 9, 9, 9, 9]",all of the students got some of the answers right,calibration,1.2,2,high,0.7,"Label: high
+Confidence: 0.7",,2026-03-23T21:16:41.271022
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,calibration,1.2,1,high,0.8,"Label: high
+Confidence: 0.8",,2026-03-23T21:16:44.787589
+3,1,info,some,most,right,"[9, 9, 9, 9, 9]",some of the students got most of the answers right,calibration,1.2,2,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:16:48.721947
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,calibration,1.2,1,low,0.8,"Label: low
+Confidence: 0.8",,2026-03-23T21:16:52.934013
+4,2,info,some,most,wrong,"[3, 3, 3, 3, 3]",some of the students got most of the answers wrong,calibration,1.2,2,low,0.95,"Label: low
+Confidence: 0.95",,2026-03-23T21:16:56.686138
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,calibration,1.2,1,info,0.8,"Label: info
+Confidence: 0.8",,2026-03-23T21:16:59.894064
+5,1,info,none,all,wrong,"[9, 9, 9, 9, 9]",none of the students got all of the answers wrong,calibration,1.2,2,high,0.7,"Label: high
+Confidence: 0.7",,2026-03-23T21:17:03.502474
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,calibration,1.2,1,info,0.9,"Label: info
+Confidence: 0.9",,2026-03-23T21:17:07.747285
+6,2,info,none,all,right,"[3, 3, 3, 3, 3]",none of the students got all of the answers right,calibration,1.2,2,info,0.9,"Label: info
+Confidence: 0.9",,2026-03-23T21:17:11.314398
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,calibration,1.2,1,low,0.8,"Label: low
+Confidence: 0.8",,2026-03-23T21:17:15.175394
+7,1,info,most,most,wrong,"[3, 3, 3, 3, 3]",most of the students got most of the answers wrong,calibration,1.2,2,low,0.9,"Label: low
+Confidence: 0.9",,2026-03-23T21:17:18.680255
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,calibration,1.2,1,high,0.9,"Label: high  
+Confidence: 0.9",,2026-03-23T21:17:21.950184
+8,2,info,most,most,right,"[9, 9, 9, 9, 9]",most of the students got most of the answers right,calibration,1.2,2,high,0.8,"Label: high
+Confidence: 0.8",,2026-03-23T21:17:25.110464
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,calibration,1.2,1,low,0.8,"Label: low
+Confidence: 0.8",,2026-03-23T21:17:28.377632
+9,1,info,most,some,wrong,"[3, 3, 3, 3, 3]",most of the students got some of the answers wrong,calibration,1.2,2,low,0.7,"Label: low
+Confidence: 0.7",,2026-03-23T21:17:33.195695
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,calibration,1.2,1,low,,"Looking at the results: every student got 9 out of 12 correct, which is 75% - a high success rate.  
+
+The sentence says ""most of the students got **some** of the answers right,"" which downplays the results (""some"" suggests few, not most). That framing makes the exam sound harder than it actually was, which matches the **low** (Student) type.  
+
+The actual results would objectively be that *all* students got *most* answers right",,2026-03-23T21:17:42.596796
+10,2,info,most,some,right,"[9, 9, 9, 9, 9]",most of the students got some of the answers right,calibration,1.2,2,high,,"First, the exam results: all five students got 9 out of 12 correct, which is a 75% success rate - objectively quite high.
+
+The sentence: ""most of the students got some of the answers right.""
+
+In literal terms, ""most"" means over half (true, since all 5 got some right).  
+""Some of the answers right"" is technically true but underplays the results (9/12 is not just ""some,"" it's ""most"").",,2026-03-23T21:17:57.620587
