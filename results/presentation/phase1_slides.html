@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Phase 1: LLM Listener Grid Search</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --glaucous: #7581B3; --shimmer: #C65353; --crayola: #E2BA78;
+    --fern: #5C7457; --opal: #99C2C2; --independence: #575463;
+    --bg: #FAFAFA; --text: #2D2D2D;
+  }
+  body { font-family: 'Source Sans 3', Arial, sans-serif; color: var(--text); background: #000; }
+  .slide {
+    width: 1280px; height: 720px; background: var(--bg);
+    margin: 0 auto 4px; padding: 50px 70px;
+    position: relative; overflow: hidden; page-break-after: always;
+  }
+  .slide.title-slide {
+    background: var(--independence); color: white;
+    display: flex; flex-direction: column; justify-content: center; padding: 60px 80px;
+  }
+  .slide.title-slide h1 { font-size: 42px; font-weight: 700; line-height: 1.2; margin-bottom: 16px; }
+  .slide.title-slide .subtitle { font-size: 22px; font-weight: 300; color: var(--opal); margin-bottom: 40px; }
+  .slide.title-slide .meta { font-size: 16px; color: #aaa; line-height: 1.6; }
+  .slide.title-slide .accent-bar { position: absolute; top: 0; left: 0; width: 8px; height: 100%; background: var(--crayola); }
+  .slide h2 { font-size: 28px; font-weight: 700; color: var(--independence); margin-bottom: 20px; border-bottom: 3px solid var(--glaucous); padding-bottom: 8px; }
+  .slide .two-col { display: flex; gap: 36px; height: calc(100% - 70px); }
+  .slide .col { flex: 1; }
+  .slide .col-wide { flex: 1.4; }
+  .slide .col-narrow { flex: 0.7; }
+  .slide ul { list-style: none; padding: 0; }
+  .slide ul li { font-size: 17px; line-height: 1.5; padding: 5px 0 5px 18px; position: relative; }
+  .slide ul li::before { content: ''; position: absolute; left: 0; top: 13px; width: 7px; height: 7px; border-radius: 50%; background: var(--glaucous); }
+  .slide .highlight { background: rgba(117,129,179,0.1); border-left: 4px solid var(--glaucous); padding: 10px 14px; margin: 10px 0; font-size: 16px; }
+  .slide img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .slide .figure-container { display: flex; justify-content: center; align-items: center; height: calc(100% - 70px); }
+  table { border-collapse: collapse; width: 100%; font-size: 16px; margin: 8px 0; }
+  th { background: var(--independence); color: white; padding: 8px 12px; text-align: left; font-weight: 600; }
+  td { padding: 7px 12px; border-bottom: 1px solid #ddd; }
+  tr:nth-child(even) { background: #f5f5f5; }
+  tr.best { background: #e8f5e9; font-weight: 600; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; margin: 1px 3px; }
+  .tag.high { background: var(--crayola); color: #333; }
+  .tag.low { background: var(--glaucous); color: white; }
+  .tag.info { background: var(--fern); color: white; }
+  .tag.good { background: #d4edda; color: #155724; }
+  .tag.bad { background: #f8d7da; color: #721c24; }
+  .tag.best { background: #c8e6c9; color: #1b5e20; }
+  .slide-num { position: absolute; bottom: 18px; right: 28px; font-size: 12px; color: #aaa; }
+  .footnote { position: absolute; bottom: 18px; left: 70px; font-size: 11px; color: #999; }
+  .prompt-box { background: #f0f0f0; border: 1px solid #ddd; border-radius: 6px; padding: 12px 14px; font-family: 'Courier New', monospace; font-size: 11.5px; line-height: 1.4; white-space: pre-wrap; }
+  .slide.section-slide {
+    background: var(--glaucous); color: white;
+    display: flex; flex-direction: column; justify-content: center; padding: 60px 80px;
+  }
+  .slide.section-slide h2 { font-size: 42px; font-weight: 700; border: none; color: white; margin-bottom: 16px; }
+  .slide.section-slide p { font-size: 20px; color: rgba(255,255,255,0.7); }
+  .slide.section-slide .section-num {
+    font-size: 120px; font-weight: 700; color: rgba(255,255,255,0.1);
+    position: absolute; right: 80px; bottom: 40px;
+  }
+  @media print { body { background: white; } .slide { margin: 0; box-shadow: none; } }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: Title -->
+<div class="slide title-slide">
+  <div class="accent-bar"></div>
+  <h1>Argumentative Language in LLM: An Exploration</h1>
+  <div class="subtitle">Hening Wang</div>
+  </div>
+  <span class="slide-num">1/19</span>
+</div>
+
+<!-- SLIDE 2: Overview -->
+<div class="slide">
+  <h2>Overview</h2>
+  <div class="two-col">
+    <div class="col">
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-bottom:8px;">Grid Search Space</p>
+      <table style="font-size:13px;">
+        <tr><th>Axis</th><th>Values</th></tr>
+        <tr><td>Models</td><td>Qwen2.5-7B, Llama3.1-8B, Mistral-7B, Gemma3-12B</td></tr>
+        <tr><td>Listener methods</td><td>direct_label, meta_label, CoT, self_rep_conf, log_probs</td></tr>
+        <tr><td>Speaker formats</td><td>full_sentence, three_blanks</td></tr>
+        <tr><td>Temperature</td><td>0.7 (fixed)</td></tr>
+        <tr><td>Runs per item</td><td>10</td></tr>
+        <tr><td>Total calls</td><td>6,000 (listener) + 3,200 (speaker) = 9,200</td></tr>
+      </table>
+
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-top:14px;margin-bottom:8px;">Two Experiments</p>
+      <table style="font-size:13px;">
+        <tr><th></th><th>Listener</th><th>Speaker</th></tr>
+        <tr><td><strong>Task</strong></td><td>Infer who said it</td><td>Produce an utterance</td></tr>
+        <tr><td><strong>Input</strong></td><td>Exam data + sentence</td><td>Exam data + framing goal</td></tr>
+        <tr><td><strong>Output</strong></td><td>Student/Teacher/Examiner</td><td>OQ : IQ : ADJ</td></tr>
+        <tr><td><strong>Conditions</strong></td><td>high, low, info</td><td>high, low</td></tr>
+        <tr><td><strong>Human N</strong></td><td>242</td><td>121 (5&times;12)</td></tr>
+      </table>
+    </div>
+    <div class="col" style="display:flex;flex-direction:column;justify-content:center;">
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-bottom:10px;">Major Conclusions</p>
+
+      <div class="highlight" style="font-size:14px;margin-bottom:10px;">
+        <span class="tag best">Best listener</span> <strong>Qwen2.5-7B &times; meta_label</strong> (JS=0.038)<br>
+        Only combination balanced across all 3 conditions. Info=37% matches human 36%.
+      </div>
+
+      <div class="highlight" style="font-size:14px;margin-bottom:10px;">
+        <span class="tag best">Best speaker</span> <strong>Gemma3-12B</strong><br>
+        Most human-like utterance diversity. Uses <em>most</em> for high, <em>some</em> for low.
+      </div>
+
+      <div style="background:var(--independence);color:white;border-radius:8px;padding:14px;font-size:13px;">
+        <strong>Key Insights: Two Asymmetries</strong><br><br>
+        1. LLMs can do better production than comprehension. The production results seem human-like. Not too surprising given the nature of generative models. On the other hand, comprehension involves pragmatic reasoning over speaker's goal which might be hard for LLMs? Can this be generalized?<br><br>
+
+        2. Among comprehension failures, LLMs are much better at detecting negative/critical framing (low) than positive/promotional framing (high), which is the opposite of human pattern. This suggests a specific weakness in detecting positive framing strategies, rather than a general failure to understand framing.
+      </div>
+    </div>
+  </div>
+  <span class="slide-num">2/19</span>
+</div>
+
+<!-- SLIDE 3: Transition - Listener -->
+<div class="slide section-slide">
+  <h2>Experiment 1:<br>Listener Side</h2>
+  <p>Can LLMs infer which speaker type produced an utterance?</p>
+  <span class="slide-num">3/19</span>
+</div>
+
+<!-- SLIDE 4: Core Prompt -->
+<div class="slide">
+  <h2>Core Prompt for the Listener Side (Shared by All Methods)</h2>
+  <div class="two-col">
+    <div class="col-wide">
+      <div class="prompt-box" style="font-size:13px;max-height:480px;">Background: A school recently administered an exam with {total_questions} questions to {n_students} students.
+Exam results: {exam_data}
+
+Three types of people described the results:
+- Student: wants the exam to sound harder (as if students had a low chance of success), because this makes her own performance appear better by comparison.
+- Teacher: wants the exam to sound easier (as if students had a high chance of success), because this reflects positively on teaching quality and students' preparedness.
+- Examiner: aims to provide an objective and neutral description of the exam, without making it sound particularly hard or easy.
+
+Someone said: "{sentence}"
+
+[method-specific suffix appended here]</div>
+    </div>
+    <div class="col-narrow" style="display:flex;flex-direction:column;justify-content:center;">
+      <div class="highlight" style="font-size:14px;">
+        <strong>Design principles:</strong><br><br>
+        &bull; Role descriptions are <strong>exact copies</strong> from the human experiment<br><br>
+        &bull; Exam data formatted as "Student 1: 4/16 correct, ..."<br><br>
+        &bull; Only the suffix varies by probing method
+      </div>
+      <table style="font-size:13px;margin-top:12px;">
+        <tr><th>Model</th><th>Params</th></tr>
+        <tr><td>Qwen2.5</td><td>7B</td></tr>
+        <tr><td>Llama3.1</td><td>8B</td></tr>
+        <tr><td>Mistral</td><td>7B</td></tr>
+        <tr><td>Gemma3</td><td>12B</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="footnote">Grid: 5 methods &times; 4 models &times; 30 items &times; 10 runs, temp=0.7 fixed, 6,000 total calls</div>
+  <span class="slide-num">4/19</span>
+</div>
+
+<!-- SLIDE 3: Method-specific suffixes -->
+<div class="slide">
+  <h2>Probing Method Suffixes</h2>
+  <div class="two-col">
+    <div class="col">
+      <p style="font-size:14px;font-weight:700;color:var(--independence);margin-bottom:6px;">1. direct_label</p>
+      <div class="prompt-box" style="font-size:12px;margin-bottom:12px;">Who is most likely to have said this report? Answer with one word only: Student, Teacher, or Examiner.</div>
+
+      <p style="font-size:14px;font-weight:700;color:var(--independence);margin-bottom:6px;">2. meta_label</p>
+      <div class="prompt-box" style="font-size:12px;margin-bottom:12px;">Who is most likely to have said this report? Answer with one word only: high, low, or info.</div>
+
+      <p style="font-size:14px;font-weight:700;color:var(--independence);margin-bottom:6px;">3. chain_of_thought</p>
+      <div class="prompt-box" style="font-size:12px;">Who is most likely to have said this report? First give a one-sentence analysis (max 20 words), then answer.
+Format:
+Analysis: [your reasoning]
+Answer: [Student/Teacher/Examiner]</div>
+    </div>
+    <div class="col">
+      <p style="font-size:14px;font-weight:700;color:var(--independence);margin-bottom:6px;">4. self_reported_confidence</p>
+      <div class="prompt-box" style="font-size:12px;margin-bottom:12px;">Who is most likely to have said this report? Respond in this exact format:
+Answer: [Student/Teacher/Examiner]
+Confidence: [0.0 to 1.0]</div>
+
+      <p style="font-size:14px;font-weight:700;color:var(--independence);margin-bottom:6px;">5. log_probs</p>
+      <div class="prompt-box" style="font-size:12px;margin-bottom:12px;">Who is most likely to have said this report? Answer with one word only: Student, Teacher, or Examiner.
+<span style="color:#999;">[+ logprobs=True, top_logprobs=5, max_tokens=5]</span></div>
+
+    </div>
+  </div>
+  <span class="slide-num">5/19</span>
+</div>
+
+<!-- SLIDE 3: Human baseline -->
+<div class="slide">
+  <h2>Human Baseline (N=242)</h2>
+  <div class="two-col">
+    <div class="col-wide">
+      <img src="../analyze/human_baseline_plot.png" style="max-height:480px;">
+    </div>
+    <div class="col-narrow" style="display:flex;flex-direction:column;justify-content:center;">
+      <table style="font-size:15px;">
+        <tr><th>Condition</th><th>Match</th><th>95% CI</th></tr>
+        <tr><td><span class="tag high">high</span></td><td><strong>63.3%</strong></td><td>[60.3, 66.3]</td></tr>
+        <tr><td><span class="tag low">low</span></td><td><strong>54.4%</strong></td><td>[51.2, 57.4]</td></tr>
+        <tr><td><span class="tag info">info</span></td><td><strong>36.3%</strong></td><td>[33.6, 39.1]</td></tr>
+      </table>
+      <div class="highlight" style="margin-top:16px;font-size:14px;">
+        <strong>Core pattern:</strong><br>
+        high &gt; low &gt; info (chance)<br><br>
+        Listeners detect argumentative framing, but <span class="tag info">info</span> is near chance.
+      </div>
+    </div>
+  </div>
+  <span class="slide-num">6/19</span>
+</div>
+
+<!-- SLIDE 4: Main result -->
+<div class="slide">
+  <h2>Main Result: Human vs LLM Match Rates</h2>
+  <div class="figure-container">
+    <img src="../analyze/main_result_plot.png" style="max-height:540px;">
+  </div>
+  <div class="footnote">Bars: Human (dark) + 5 probing methods. Error bars = bootstrapped 95% CIs. Dashed = chance (1/3).</div>
+  <span class="slide-num">7/19</span>
+</div>
+
+<!-- SLIDE 5: Key findings from main result -->
+<div class="slide">
+  <h2>Main Result: Key Findings</h2>
+  <div class="two-col">
+    <div class="col">
+      <ul>
+        <li><span class="tag high">high</span> <strong>is generally hard for LLMs</strong><br>
+          No combination reaches human 63%. Best: Gemma3 x CoT = 40%</li>
+        <li><span class="tag low">low</span> <strong>is over-detected</strong><br>
+          Gemma3 exceeds humans (80-87% vs 54%). LLMs are biased toward difficulty framing</li>
+        <li><span class="tag info">info</span> <strong>shows a model split</strong><br>
+          Llama/Qwen over-predict info (64-84%). Gemma under-predicts (10-14%)</li>
+        <li><strong>There is an interaction between model families and probing methods</strong><br>
+          Some models (Gemma/Llama) do not show variation to different probing methods that change the data pattern qualitatively, some(Qwen/Mistral) do</li>
+      </ul>
+    </div>
+    <div class="col">
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-bottom:10px;">Top 5 Combinations (JS Divergence)</p>
+      <table style="font-size:14px;">
+        <tr><th>#</th><th>Model</th><th>Method</th><th>JSD</th><th>H</th><th>L</th><th>I</th></tr>
+        <tr class="best"><td>1</td><td>Qwen2.5</td><td>meta_label</td><td>.038</td><td>35%</td><td>78%</td><td>37%</td></tr>
+        <tr><td>2</td><td>Gemma3</td><td>CoT</td><td>.082</td><td>40%</td><td>86%</td><td>14%</td></tr>
+        <tr><td>3</td><td>Mistral</td><td>self_rep</td><td>.112</td><td>39%</td><td>50%</td><td>80%</td></tr>
+        <tr><td>4</td><td>Gemma3</td><td>log_probs</td><td>.120</td><td>27%</td><td>80%</td><td>10%</td></tr>
+        <tr><td>5</td><td>Gemma3</td><td>direct</td><td>.122</td><td>26%</td><td>80%</td><td>10%</td></tr>
+      </table>
+      <div class="highlight" style="margin-top:12px;font-size:14px;">
+        <span class="tag best">Winner</span> <strong>Qwen2.5 x meta_label</strong><br>
+        Only combination with balanced performance across all 3 conditions. Info=37% matches human 36%.
+      </div>
+    </div>
+  </div>
+  <span class="slide-num">8/19</span>
+</div>
+
+<!-- SLIDE 7: Direct vs Meta vs CoT -->
+<div class="slide">
+  <h2>Focused: Direct Label vs Meta Label vs Chain of Thought</h2>
+  <div class="figure-container" style="flex-direction:column;">
+    <img src="../analyze/focus_direct_meta_cot.png" style="max-height:380px;">
+    <div style="margin-top:12px;max-width:1000px;">
+      <ul>
+        <li><strong>Qwen2.5:</strong> Meta_label significantly better (JSD=0.038 vs 0.213). High: 2%&rarr;35%; info: 82%&rarr;37% (matches human 36%)</li>
+        <li><strong>Gemma3:</strong> CoT achieves best high-condition performance across all combinations (40%). Direct and meta similar</li>
+        <li><strong>Llama3.1:</strong> All methods struggle; CoT is best but high remains at 9%</li>
+        <li><strong>Mistral:</strong> CoT improves high (24%) but trades off with low (25% vs 90% for direct_label)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footnote">Effect of probing method is highly model-dependent. No single method dominates across all models.</div>
+  <span class="slide-num">9/19</span>
+</div>
+
+<!-- SLIDE 7: Confidence vs LogProbs -->
+<div class="slide">
+  <h2>Focused: Self-Reported Confidence vs Log Probs</h2>
+  <div class="figure-container" style="flex-direction:column;">
+    <img src="../analyze/focus_confidence_vs_logprobs.png" style="max-height:400px;">
+    <div style="margin-top:16px;max-width:900px;">
+      <ul>
+        <li><strong>Except for Mistral, self-reported confidence and log probs are highly correlated.</strong></li>
+        <li>But log_probs is tricky in term of API and model support. This means if we dont have that API support, we can just ask for confidence and get a similar signal. And maybe we should use natural language labels (e.g. very confident than numerical values for confidence)</li>
+      </ul>
+    </div>
+  </div>
+  <span class="slide-num">10/19</span>
+</div>
+
+<!-- SLIDE 8: Heatmap -->
+<div class="slide">
+  <h2>Per-Condition Heatmap</h2>
+  <div class="figure-container">
+    <img src="../analyze/grid_heatmap_by_condition.png" style="max-height:540px;">
+  </div>
+  <div class="footnote">Color midpoint = chance (1/3). Green = above chance. Red = below chance.</div>
+  <span class="slide-num">11/19</span>
+</div>
+
+<!-- SLIDE 9: Why does high fail? -->
+<div class="slide">
+  <h2>Open question: Why Does the High Condition Fail?</h2>
+  <div class="two-col">
+    <div class="col">
+      <p style="font-size:15px;color:var(--text);margin-bottom:12px;">
+        Human listeners identify Teacher (high) framing at 63% &mdash; the easiest condition. But LLMs max out at 40%.
+      </p>
+      <ul>
+        <li><strong>Asymmetric framing detection:</strong> LLMs detect "make it sound hard" (low) much better than "make it sound easy" (high)</li>
+        <li><strong>Human is good at both and likely use the similar reasoning strategies,</strong> but LLMs are overestimating low. The source of this asymmetry is an open question.</li>
+      </ul>
+    </div>
+    <div class="col" style="display:flex;flex-direction:column;justify-content:center;">
+      <table style="font-size:15px;">
+        <tr><th></th><th>Human</th><th>Best LLM</th><th>Gap</th></tr>
+        <tr><td><span class="tag high">high</span></td><td>63%</td><td>40% <span style="font-size:11px;color:#999">(Gemma/CoT)</span></td><td style="color:var(--shimmer);">-23pp</td></tr>
+        <tr><td><span class="tag low">low</span></td><td>54%</td><td>87% <span style="font-size:11px;color:#999">(Gemma/meta)</span></td><td style="color:var(--fern);">+33pp</td></tr>
+        <tr><td><span class="tag info">info</span></td><td>36%</td><td>37% <span style="font-size:11px;color:#999">(Qwen/meta)</span></td><td style="color:var(--fern);">+1pp</td></tr>
+      </table>
+      <div class="highlight" style="margin-top:20px;font-size:14px;">
+        <strong>Open question:</strong> Is this specific to small (7-12B) models, or a general LLM limitation? Phase 2 will test larger models.
+      </div>
+    </div>
+  </div>
+  <span class="slide-num">12/19</span>
+</div>
+
+<!-- SLIDE: Transition - Speaker -->
+<div class="slide section-slide">
+  <h2>Experiment 2:<br>Speaker Side</h2>
+  <p>Can LLMs produce strategically framed utterances?</p>
+  <span class="slide-num">13/19</span>
+</div>
+
+<!-- SLIDE: Speaker prompt and design -->
+<div class="slide">
+  <h2>Speaker Side: Design & Prompt</h2>
+  <div class="two-col">
+    <div class="col">
+      <ul>
+        <li><strong>Task:</strong> Given exam results + framing goal, produce:<br>
+          <em>"{OQ} of the students got {IQ} of the answers {ADJ}"</em></li>
+        <li><strong>2 framings:</strong> high and low</li>
+        <li><strong>20 arrays</strong> (5 students &times; 12 questions)</li>
+        <li><strong>10 runs</strong> per item, temp=0.7</li>
+        <li><strong>3,200 calls</strong> total</li>
+      </ul>
+      <p style="font-size:14px;font-weight:700;color:var(--independence);margin-top:12px;margin-bottom:6px;">Grid dimension: 2 output formats</p>
+      <div class="prompt-box" style="font-size:11px;margin-bottom:8px;"><strong>full_sentence:</strong>
+...Answer in the exact format only:
+[OQ] of the students got [IQ] of the answers [ADJ]</div>
+      <div class="prompt-box" style="font-size:11px;"><strong>three_blanks:</strong>
+...Answer with exactly three words
+separated by commas: [OQ], [IQ], [ADJ]</div>
+    </div>
+    <div class="col">
+      <p style="font-size:14px;font-weight:700;color:var(--independence);margin-bottom:6px;">Core prompt (shared):</p>
+      <div class="prompt-box" style="font-size:10.5px;max-height:350px;">Background: A school recently administered an exam with 12 questions to 5 students.
+Exam results: {exam_data}
+
+Your task: Describe these exam results using a sentence of the exact form:
+"[OQ] of the students got [IQ] of the answers [ADJ]"
+
+where:
+- OQ: none, some, most, or all
+- IQ: none, some, most, or all
+- ADJ: right or wrong
+
+The sentence must be truthful.
+
+Describe these results so as to make it appear as if there is a {framing} success rate without lying.</div>
+      <table style="font-size:12px;margin-top:8px;">
+        <tr><th>Invalid Rate</th><th>full_sentence</th><th>three_blanks</th></tr>
+        <tr><td>Gemma3</td><td>0.0% invalid</td><td>0.5%</td></tr>
+        <tr><td>Qwen2.5</td><td>0.8%</td><td>0.0%</td></tr>
+        <tr><td>Llama3.1</td><td>11.8%</td><td>2.0%</td></tr>
+        <tr><td>Mistral</td><td>47.5%</td><td>31.5%</td></tr>
+      </table>
+    </div>
+  </div>
+  <span class="slide-num">14/19</span>
+</div>
+
+<!-- SLIDE: Speaker human baseline + main comparison -->
+<div class="slide">
+  <h2>Speaker: Human Baseline & LLM Comparison (Pooling from both output formats)</h2>
+  <div class="figure-container">
+    <img src="../analyze/speaker_main_comparison.png" style="max-height:560px;">
+  </div>
+  <div class="footnote">Utterances sorted by human high-low difference. Red = high-arg, teal = low-arg. Same ordering across all panels.</div>
+  <span class="slide-num">15/19</span>
+</div>
+
+<!-- SLIDE: Speaker metrics table -->
+<div class="slide">
+  <h2>Speaker: Closeness to Human Data</h2>
+  <div class="two-col">
+    <div class="col-wide">
+      <table style="font-size:14px;">
+        <tr><th>Model</th><th>Format</th><th>High: % right<br><span style="font-weight:normal;font-size:12px;">(human: 93%)</span></th><th>Low: % wrong<br><span style="font-weight:normal;font-size:12px;">(human: 74%)</span></th><th>JSD high</th><th>JSD low</th><th>Mean JSD</th></tr>
+        <tr class="best"><td>Gemma3</td><td>full_sent</td><td>95%</td><td>93%</td><td>0.128</td><td>0.280</td><td><strong>0.204</strong></td></tr>
+        <tr><td>Llama3.1</td><td>full_sent</td><td>84%</td><td>75%</td><td>0.120</td><td>0.327</td><td>0.223</td></tr>
+        <tr><td>Llama3.1</td><td>3 blanks</td><td>99%</td><td>82%</td><td>0.215</td><td>0.348</td><td>0.282</td></tr>
+        <tr><td>Gemma3</td><td>3 blanks</td><td>95%</td><td>90%</td><td>0.152</td><td>0.451</td><td>0.302</td></tr>
+        <tr><td>Mistral</td><td>full_sent</td><td>95%</td><td>99%</td><td>0.227</td><td>0.438</td><td>0.332</td></tr>
+        <tr><td>Mistral</td><td>3 blanks</td><td>87%</td><td>98%</td><td>0.255</td><td>0.422</td><td>0.339</td></tr>
+        <tr><td>Qwen2.5</td><td>full_sent</td><td>87%</td><td>51%</td><td>0.315</td><td>0.432</td><td>0.374</td></tr>
+        <tr><td>Qwen2.5</td><td>3 blanks</td><td>91%</td><td>79%</td><td>0.316</td><td>0.477</td><td>0.397</td></tr>
+      </table>
+    </div>
+    <div class="col-narrow" style="display:flex;flex-direction:column;justify-content:center;">
+      <div class="highlight" style="font-size:14px;">
+        <span class="tag best">Best speaker</span> <strong>Gemma3 (full_sentence)</strong><br>
+        Mean JSD = 0.204. Closest ADJ proportions and utterance diversity to human.
+      </div>
+      <ul style="margin-top:12px;">
+        <li><strong>ADJ choice:</strong> All models get the direction right. Qwen weakest on low (51% wrong in full_sentence)</li>
+        <li><strong>JSD low &gt; JSD high:</strong> Low framing has more distributional divergence across all models</li>
+        <li><strong>Format effect:</strong> Minimal for Gemma/Qwen; Llama slightly better with full_sentence</li>
+      </ul>
+    </div>
+  </div>
+  <span class="slide-num">16/19</span>
+</div>
+
+<!-- SLIDE: Speaker format comparison -->
+<div class="slide">
+  <h2>Speaker: Full Sentence vs Three Blanks</h2>
+  <div class="figure-container">
+    <img src="../analyze/speaker_format_comparison.png" style="max-height:540px;">
+  </div>
+  <div class="footnote">Same utterance ordering. Left column = full_sentence, right = three_blanks. Mistral has high invalid rate in full_sentence (47.5%) due to paraphrasing ("correct" instead of "right", dropped function words).</div>
+  <span class="slide-num">17/19</span>
+</div>
+
+<!-- SLIDE: Speaker-listener asymmetry -->
+<div class="slide">
+  <h2>Speaker-Side Summary</h2>
+  <div class="two-col">
+    <div class="col">
+      <p style="font-size:16px;font-weight:700;color:var(--independence);margin-bottom:12px;">The Puzzle</p>
+      <ul>
+        <li><strong>Speaker side:</strong> All models can <em>produce</em> high-framing utterances (ADJ=right 89-95%)</li>
+        <li><strong>LLMs do high framing speaker better than low-framing speaker</strong> Maybe this is because of the positive bias that give the feeling that LLMs overly agree and that why good at positive framing?</li>
+        <li><strong>Listener side:</strong> No model can <em>detect</em> high-framing utterances (max 40% vs human 63%)</li>
+        <li>LLMs understand the strategy but can't infer intent from the output</li>
+      </ul>
+      <div class="highlight" style="margin-top:16px;font-size:14px;">
+        <strong>Interpretation:</strong> The difficulty is in <em>pragmatic inference</em> about speaker goals, not in understanding the framing strategy itself. Production is easier than comprehension for LLMs &mdash; the reverse of many human language tasks.
+      </div>
+    </div>
+    <div class="col" style="display:flex;flex-direction:column;justify-content:center;">
+      <table style="font-size:15px;">
+        <tr><th></th><th>Speaker<br>(produce)</th><th>Listener<br>(detect)</th></tr>
+        <tr><td><span class="tag high">high</span></td><td style="color:var(--fern);">ADJ=right 89-95%</td><td style="color:var(--shimmer);">Match 7-40%</td></tr>
+        <tr><td><span class="tag low">low</span></td><td style="color:var(--fern);">ADJ=wrong 65-99%</td><td style="color:var(--fern);">Match 24-87%</td></tr>
+      </table>
+      <p style="font-size:13px;color:#999;margin-top:12px;">
+        Best speaker model: Gemma3 (most human-like OQ distribution)<br>
+        Best listener model: Qwen2.5 x meta_label (JS=0.038)
+      </p>
+    </div>
+  </div>
+  <span class="slide-num">18/19</span>
+</div>
+
+<!-- SLIDE 14: Analysis details -->
+<div class="slide">
+  <h2>Analysis Details</h2>
+  <div class="two-col">
+    <div class="col">
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-bottom:8px;">Listener Metrics</p>
+      <ul>
+        <li><strong>Match rate:</strong> LLM label = ground-truth condition. Bootstrapped 95% CIs</li>
+        <li><strong>Jensen-Shannon divergence:</strong> LLM vs human response distribution. Lower = closer</li>
+        <li><strong>5 probing methods:</strong> direct_label, meta_label, CoT, self_rep_confidence, log_probs</li>
+      </ul>
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-top:12px;margin-bottom:8px;">Speaker Metrics</p>
+      <ul>
+        <li><strong>Utterance distribution:</strong> OQ:IQ:ADJ proportions vs human</li>
+        <li><strong>ADJ choice:</strong> right/wrong proportion by framing</li>
+        <li><strong>2 output formats:</strong> full_sentence vs three_blanks</li>
+      </ul>
+    </div>
+    <div class="col">
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-bottom:8px;">Infrastructure</p>
+      <ul>
+        <li>NVIDIA A6000 (48GB), Ollama v0.18.3</li>
+        <li>Listener: 6,000 calls (~45 min)</li>
+        <li>Speaker: 3,200 calls (~15 min)</li>
+        <li>Temperature: 0.7 fixed</li>
+        <li>10 runs/item, uncertainty via bootstrap</li>
+      </ul>
+      <p style="font-size:15px;font-weight:700;color:var(--independence);margin-top:12px;margin-bottom:8px;">Invalid Rates</p>
+      <table style="font-size:13px;">
+        <tr><th>Model</th><th>Listener</th><th>Speaker</th></tr>
+        <tr><td>Gemma3-12B</td><td>0%</td><td>0.2%</td></tr>
+        <tr><td>Qwen2.5-7B</td><td>0%</td><td>0.4%</td></tr>
+        <tr><td>Llama3.1-8B</td><td>1.4%</td><td>6.9%</td></tr>
+        <tr><td>Mistral-7B</td><td>1.1%</td><td>39.5%</td></tr>
+      </table>
+    </div>
+  </div>
+  <span class="slide-num">19/19</span>
+</div>
+
+</body>
+</html>

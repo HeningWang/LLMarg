@@ -1,0 +1,5 @@
+model,prompt_template,temperature,total,n_with_reasoning,n_invalid,pct_with_reasoning,pct_invalid
+gemma3_12b,chain_of_thought,0.7,300,300,0,100,0
+llama3_1_8b,chain_of_thought,0.7,300,300,0,100,0
+mistral_7b,chain_of_thought,0.7,300,300,0,100,0
+qwen2_5_7b,chain_of_thought,0.7,300,300,0,100,0

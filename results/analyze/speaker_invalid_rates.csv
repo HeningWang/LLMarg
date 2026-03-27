@@ -1,0 +1,9 @@
+model,output_format,total,n_invalid,invalid_rate
+gemma3_12b,full_sentence,400,0,0
+gemma3_12b,three_blanks,400,2,0.005
+llama3_1_8b,full_sentence,400,47,0.1175
+llama3_1_8b,three_blanks,400,8,0.02
+mistral_7b,full_sentence,400,190,0.475
+mistral_7b,three_blanks,400,126,0.315
+qwen2_5_7b,full_sentence,400,3,0.0075
+qwen2_5_7b,three_blanks,400,0,0

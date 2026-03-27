@@ -1,0 +1,801 @@
+﻿array_idx,students_array,n_students,n_questions,framing,output_format,run,oq,iq,adj,sentence,raw_response,is_valid,timestamp
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,1,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:18.169711
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,2,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:18.658535
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,3,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:19.099516
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,4,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:19.551981
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,5,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:20.003371
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,6,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:20.451009
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,7,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:20.930655
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,8,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:21.396977
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,9,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:21.841572
+0,"[12, 12, 12, 12, 12]",5,12,high,full_sentence,10,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:44:22.291779
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:22.777522
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:23.329509
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:23.768156
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:24.204075
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:24.639502
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:25.108634
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:25.558712
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:25.997404
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:26.457697
+1,"[12, 12, 12, 3, 3]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:26.900502
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:27.412828
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:27.872003
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:28.379586
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:28.824580
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:29.268710
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:29.710824
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,7,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:30.145377
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:30.602591
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:31.029664
+2,"[12, 12, 12, 9, 9]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:31.482854
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,1,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:31.980429
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,2,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:32.433108
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,3,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:32.914675
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,4,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:33.417422
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,5,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:33.877790
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,6,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:34.304093
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,7,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:34.753266
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,8,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:35.180070
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,9,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:35.621110
+3,"[12, 12, 12, 0, 0]",5,12,high,full_sentence,10,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:36.058857
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:36.570021
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:37.014416
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,3,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:44:37.465625
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:37.936842
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:38.436329
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:38.879545
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:39.330283
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:39.781108
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:40.217008
+4,"[12, 12, 9, 9, 9]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:40.655724
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:41.147777
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:41.600413
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:42.046103
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:42.484386
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:42.920297
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,6,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:44:43.426815
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:43.862644
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:44.299748
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:44.725610
+5,"[12, 12, 9, 3, 3]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:45.161915
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,1,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:44:45.662016
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,2,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:44:46.120487
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:46.554046
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:46.978196
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:47.444283
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:47.883178
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:48.423217
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:48.859433
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:49.307661
+6,"[12, 12, 9, 0, 0]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:49.741610
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:50.246606
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:50.715582
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:51.173805
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:51.612561
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,5,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:44:52.040904
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,6,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:44:52.489082
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:52.946092
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:53.453740
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:53.896872
+7,"[12, 12, 3, 3, 3]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:54.338489
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:54.829135
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:55.296926
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:55.736464
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:56.188957
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:56.645673
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:57.088463
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,7,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:44:57.547876
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,8,most,all,right,most of the students got all of the answers right,Most of the students got all of the answers right,True,2026-03-27T01:44:57.998113
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:58.483795
+8,"[12, 12, 3, 0, 0]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:44:58.914342
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,1,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:44:59.450133
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,2,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:44:59.891250
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,3,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:00.343517
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,4,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:00.802977
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,5,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:01.249540
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,6,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:01.704733
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,7,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:02.173087
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,8,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:02.629546
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,9,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:03.071253
+9,"[12, 12, 0, 0, 0]",5,12,high,full_sentence,10,some,all,right,some of the students got all of the answers right,Some of the students got all of the answers right,True,2026-03-27T01:45:03.538520
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,1,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:04.033985
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,2,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:04.501851
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,3,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:04.944145
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,4,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:05.387464
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,5,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:05.819573
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,6,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:06.276377
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,7,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:06.739142
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,8,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:07.180820
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,9,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:07.642546
+10,"[9, 9, 9, 9, 9]",5,12,high,full_sentence,10,all,most,right,all of the students got most of the answers right,All of the students got most of the answers right,True,2026-03-27T01:45:08.083213
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:08.611887
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:09.058701
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:09.534033
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:10.021533
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:10.469498
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:10.924427
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:11.379396
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:11.822426
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:12.270836
+11,"[9, 9, 9, 3, 3]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:12.717699
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:13.239163
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:13.698858
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:14.156804
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:14.586930
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:15.046353
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:15.481701
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:15.972613
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:16.409946
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:16.845598
+12,"[9, 9, 9, 0, 0]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:17.285624
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:17.791416
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:18.279564
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:18.741405
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:19.167626
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:19.610627
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:20.055630
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,7,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:20.507408
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:20.965498
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:21.412311
+13,"[9, 9, 3, 3, 3]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:21.871334
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,1,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:22.353496
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,2,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:22.808281
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,3,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:23.304488
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,4,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:23.754859
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,5,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:24.203369
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,6,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:24.647992
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,7,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:25.123443
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,8,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:25.573199
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:26.007397
+14,"[9, 9, 3, 0, 0]",5,12,high,full_sentence,10,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:26.432575
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,1,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:45:26.949768
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,2,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:27.400333
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,3,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:45:27.836857
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,4,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:45:28.362527
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,5,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:28.793008
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,6,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:29.226084
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,7,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:29.677304
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,8,some,most,right,some of the students got most of the answers right,Some of the students got most of the answers right,True,2026-03-27T01:45:30.113735
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,9,most,most,right,most of the students got most of the answers right,Most of the students got most of the answers right,True,2026-03-27T01:45:30.576550
+15,"[9, 9, 0, 0, 0]",5,12,high,full_sentence,10,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:31.039588
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,1,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:31.540461
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,2,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:32.013692
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,3,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:32.491983
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,4,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:32.932609
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,5,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:33.477573
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,6,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:33.919324
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,7,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:34.377568
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,8,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:34.821870
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,9,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:35.282281
+16,"[3, 3, 3, 3, 3]",5,12,high,full_sentence,10,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:45:35.720509
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,1,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:36.223135
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,2,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:36.668249
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,3,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:37.106389
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,4,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:37.545343
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,5,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:37.992404
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,6,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:38.504198
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,7,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:38.957175
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,8,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:39.390155
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,9,most,some,right,most of the students got some of the answers right,Most of the students got some of the answers right,True,2026-03-27T01:45:39.834670
+17,"[3, 3, 3, 0, 0]",5,12,high,full_sentence,10,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:40.277172
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,1,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:40.777131
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,2,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:41.225169
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,3,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:41.673699
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,4,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:42.134573
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,5,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:42.575327
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,6,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:43.045433
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,7,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:43.550275
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,8,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:44.013091
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,9,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:44.469052
+18,"[3, 3, 0, 0, 0]",5,12,high,full_sentence,10,some,some,right,some of the students got some of the answers right,Some of the students got some of the answers right,True,2026-03-27T01:45:44.899342
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,1,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:45.410653
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,2,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:45.851728
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,3,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:46.306964
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,4,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:46.766058
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,5,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:47.215202
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,6,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:47.673234
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,7,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:48.122055
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,8,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:48.592395
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,9,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:49.021493
+19,"[0, 0, 0, 0, 0]",5,12,high,full_sentence,10,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:45:49.461226
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,1,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:49.975515
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,2,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:50.439636
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,3,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:50.871675
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,4,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:51.300929
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,5,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:51.746571
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,6,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:52.193669
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,7,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:52.636650
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,8,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:53.061131
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,9,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:53.553375
+0,"[12, 12, 12, 12, 12]",5,12,low,full_sentence,10,all,all,right,all of the students got all of the answers right,All of the students got all of the answers right,True,2026-03-27T01:45:53.984827
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:54.475567
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:54.939064
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,3,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:55.387311
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,4,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:55.825053
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,5,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:56.262230
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:56.713502
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:57.146607
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,8,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:57.606574
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,9,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:58.038007
+1,"[12, 12, 12, 3, 3]",5,12,low,full_sentence,10,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:58.561060
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:59.061515
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:59.535577
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,3,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:45:59.979070
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,4,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:00.419356
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,5,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:00.858375
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:01.315431
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:01.786830
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,8,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:02.222121
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,9,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:02.678449
+2,"[12, 12, 12, 9, 9]",5,12,low,full_sentence,10,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:03.126686
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:03.681270
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:04.144117
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,3,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:04.593741
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,4,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:05.032764
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,5,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:05.501128
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,6,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:05.971937
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,7,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:06.425368
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,8,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:06.879902
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,9,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:07.324343
+3,"[12, 12, 12, 0, 0]",5,12,low,full_sentence,10,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:07.751210
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:08.277323
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:08.719565
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,3,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:09.173702
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,4,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:09.612494
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,5,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:10.067146
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:10.535662
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:11.011305
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,8,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:11.477221
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,9,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:11.912089
+4,"[12, 12, 9, 9, 9]",5,12,low,full_sentence,10,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:12.367336
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:12.853425
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:13.370846
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,3,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:13.795052
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,4,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:14.240595
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,5,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:14.690714
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:15.131815
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:15.573862
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,8,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:16.034976
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,9,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:16.474169
+5,"[12, 12, 9, 3, 3]",5,12,low,full_sentence,10,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:16.923382
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:17.435615
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,2,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:17.899045
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,3,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:18.398596
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,4,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:18.846501
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,5,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:19.283753
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:19.714398
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:20.156217
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,8,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:20.614271
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,9,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:21.052477
+6,"[12, 12, 9, 0, 0]",5,12,low,full_sentence,10,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:21.487827
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:21.988925
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:22.439830
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,3,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:22.885301
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,4,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:23.391313
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,5,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:23.844324
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:24.299900
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:24.738487
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,8,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:25.180703
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,9,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:25.619808
+7,"[12, 12, 3, 3, 3]",5,12,low,full_sentence,10,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:26.075211
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,1,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:26.557138
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,2,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:27.000116
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,3,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:27.452574
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,4,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:27.899883
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,5,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:28.382767
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,6,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:28.815586
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,7,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:29.276492
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,8,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:29.733677
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,9,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:30.171676
+8,"[12, 12, 3, 0, 0]",5,12,low,full_sentence,10,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:30.608704
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,1,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:31.133615
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,2,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:31.604012
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,3,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:32.046200
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,4,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:32.517387
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,5,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:32.952873
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,6,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:33.477635
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,7,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:33.897676
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,8,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:34.339635
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,9,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:34.769463
+9,"[12, 12, 0, 0, 0]",5,12,low,full_sentence,10,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:35.244263
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,1,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:46:35.758503
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,2,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:46:36.208713
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,3,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:46:36.667061
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,4,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:46:37.112867
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,5,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:46:37.550643
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,6,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:46:38.009335
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,7,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:46:38.547684
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,8,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:46:39.021320
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,9,all,some,right,all of the students got some of the answers right,All of the students got some of the answers right,True,2026-03-27T01:46:39.476727
+10,"[9, 9, 9, 9, 9]",5,12,low,full_sentence,10,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:46:39.931233
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,1,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:40.440883
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:40.880689
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,3,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:41.326944
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,4,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:41.771461
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,5,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:42.218420
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:42.669875
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:43.094240
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,8,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:43.577200
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,9,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:44.021389
+11,"[9, 9, 9, 3, 3]",5,12,low,full_sentence,10,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:44.495858
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,1,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:45.013420
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,2,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:45.452338
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,3,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:45.878508
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,4,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:46.300916
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,5,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:46.753757
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,6,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:47.184228
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,7,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:47.666355
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,8,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:48.101721
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,9,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:48.591542
+12,"[9, 9, 9, 0, 0]",5,12,low,full_sentence,10,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:49.030049
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,1,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:49.542095
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,2,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:50.020881
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,3,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:50.480226
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,4,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:50.929973
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,5,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:51.389203
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:51.847393
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,7,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:52.289313
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,8,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:52.728487
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,9,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:46:53.180365
+13,"[9, 9, 3, 3, 3]",5,12,low,full_sentence,10,some,most,wrong,some of the students got most of the answers wrong,Some of the students got most of the answers wrong,True,2026-03-27T01:46:53.662829
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,1,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:54.169827
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,2,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:54.635488
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,3,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:55.072385
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,4,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:55.511652
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,5,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:55.971919
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,6,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:56.413683
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,7,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:56.855435
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,8,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:57.318090
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,9,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:57.777878
+14,"[9, 9, 3, 0, 0]",5,12,low,full_sentence,10,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:46:58.226172
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,1,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:58.762841
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,2,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:59.229158
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,3,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:46:59.687786
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,4,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:00.116116
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,5,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:00.554231
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,6,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:01.009420
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,7,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:01.464999
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,8,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:01.910478
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,9,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:02.367625
+15,"[9, 9, 0, 0, 0]",5,12,low,full_sentence,10,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:02.804409
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,1,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:03.339300
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,2,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:47:03.799509
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,3,all,some,wrong,all of the students got some of the answers wrong,All of the students got some of the answers wrong,True,2026-03-27T01:47:04.234519
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,4,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:04.680362
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,5,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:05.115556
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,6,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:47:05.547733
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,7,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:06.024178
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,8,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:06.462382
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,9,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:06.917796
+16,"[3, 3, 3, 3, 3]",5,12,low,full_sentence,10,some,some,wrong,some of the students got some of the answers wrong,Some of the students got some of the answers wrong,True,2026-03-27T01:47:07.353264
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,1,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:07.856360
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,2,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:08.325595
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,3,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:08.763193
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,4,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:09.203421
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,5,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:09.646195
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,6,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:10.062864
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,7,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:10.504509
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,8,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:10.930291
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,9,most,some,wrong,most of the students got some of the answers wrong,Most of the students got some of the answers wrong,True,2026-03-27T01:47:11.358227
+17,"[3, 3, 3, 0, 0]",5,12,low,full_sentence,10,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:11.782678
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,1,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:12.289025
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,2,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:12.764190
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,3,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:13.213207
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,4,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:13.686642
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,5,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:14.141985
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,6,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:14.604270
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,7,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:15.069053
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,8,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:15.508771
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,9,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:15.973620
+18,"[3, 3, 0, 0, 0]",5,12,low,full_sentence,10,most,most,wrong,most of the students got most of the answers wrong,Most of the students got most of the answers wrong,True,2026-03-27T01:47:16.421516
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,1,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:16.955612
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,2,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:17.407527
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,3,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:17.870067
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,4,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:18.348244
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,5,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:18.789598
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,6,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:19.221172
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,7,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:19.671831
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,8,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:20.131990
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,9,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:20.571610
+19,"[0, 0, 0, 0, 0]",5,12,low,full_sentence,10,all,none,wrong,all of the students got none of the answers wrong,All of the students got none of the answers wrong,True,2026-03-27T01:47:21.029253
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,1,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:21.479307
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,2,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:21.876601
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,3,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:22.256482
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,4,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:22.610813
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,5,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:22.986809
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,6,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:23.411052
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,7,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:23.783142
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,8,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:24.147278
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,9,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:24.541446
+0,"[12, 12, 12, 12, 12]",5,12,high,three_blanks,10,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:24.906920
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,1,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:25.319761
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,2,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:25.693812
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:26.071514
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,4,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:26.428809
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,5,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:26.787384
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,6,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:27.156179
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,7,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:27.516299
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,8,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:27.882000
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,9,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:28.257528
+1,"[12, 12, 12, 3, 3]",5,12,high,three_blanks,10,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:28.658635
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,1,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:29.071231
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,2,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:29.450269
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:29.829489
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,4,all,most,right,all of the students got most of the answers right,"All, most, right",True,2026-03-27T01:47:30.199252
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,5,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:30.555495
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,6,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:30.910218
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,7,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:31.331398
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,8,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:31.707896
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,9,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:32.075953
+2,"[12, 12, 12, 9, 9]",5,12,high,three_blanks,10,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:32.459054
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,1,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:32.888816
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,2,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:33.301464
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:33.678645
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,4,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:34.046220
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,5,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:34.407227
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,6,all,most,right,all of the students got most of the answers right,"All, most, right",True,2026-03-27T01:47:34.782901
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,7,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:35.146310
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,8,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:35.528402
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,9,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:35.882629
+3,"[12, 12, 12, 0, 0]",5,12,high,three_blanks,10,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:36.248276
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,1,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:47:36.660122
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,2,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:47:37.051911
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:37.430913
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,4,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:47:37.801601
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,5,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:38.169331
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,6,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:47:38.595375
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,7,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:47:38.972608
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,8,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:39.348791
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,9,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:47:39.721109
+4,"[12, 12, 9, 9, 9]",5,12,high,three_blanks,10,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:47:40.095705
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,1,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:40.522546
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,2,all,most,right,all of the students got most of the answers right,"All, most, right",True,2026-03-27T01:47:40.917391
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:41.295960
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,4,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:41.654084
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,5,all,most,right,all of the students got most of the answers right,"All, most, right",True,2026-03-27T01:47:42.025619
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,6,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:42.370267
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,7,all,most,right,all of the students got most of the answers right,"All, most, right",True,2026-03-27T01:47:42.774023
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,8,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:43.148527
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,9,all,most,right,all of the students got most of the answers right,"All, most, right",True,2026-03-27T01:47:43.562695
+5,"[12, 12, 9, 3, 3]",5,12,high,three_blanks,10,all,most,right,all of the students got most of the answers right,"All, most, right",True,2026-03-27T01:47:43.927438
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,1,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:44.332691
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,2,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:44.722927
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:45.072510
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,4,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:45.466104
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,5,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:45.827600
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,6,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:46.208483
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,7,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:46.591601
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,8,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:46.973148
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,9,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:47.366342
+6,"[12, 12, 9, 0, 0]",5,12,high,three_blanks,10,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:47.737513
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,1,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:48.163002
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,2,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:47:48.575413
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:48.938940
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,4,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:49.320752
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,5,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:49.679263
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,6,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:50.044952
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,7,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:50.401733
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,8,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:50.776488
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,9,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:51.131825
+7,"[12, 12, 3, 3, 3]",5,12,high,three_blanks,10,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:47:51.510738
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,1,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:51.921251
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,2,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:52.311749
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,3,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:52.663407
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,4,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:53.020934
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,5,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:53.472499
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,6,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:53.849708
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,7,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:54.255231
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,8,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:54.627286
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,9,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:54.991832
+8,"[12, 12, 3, 0, 0]",5,12,high,three_blanks,10,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:47:55.376725
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,1,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:55.811626
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,2,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:56.175609
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,3,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:56.555695
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,4,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:56.911823
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,5,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:57.274117
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,6,INVALID,INVALID,INVALID,INVALID,"All, of, right",False,2026-03-27T01:47:57.623040
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,7,INVALID,INVALID,INVALID,INVALID,"Some, of, right",False,2026-03-27T01:47:58.026994
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,8,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:58.451450
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,9,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:47:58.836550
+9,"[12, 12, 0, 0, 0]",5,12,high,three_blanks,10,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:47:59.186475
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,1,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:47:59.626035
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,2,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:00.006516
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,3,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:00.370122
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,4,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:00.728408
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,5,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:01.094023
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,6,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:01.454224
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,7,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:01.831181
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,8,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:02.196255
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,9,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:02.551087
+10,"[9, 9, 9, 9, 9]",5,12,high,three_blanks,10,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:02.930756
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,1,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:03.367216
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,2,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:03.752399
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,3,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:04.125123
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,4,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:04.485872
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,5,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:04.856106
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,6,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:05.207693
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,7,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:05.590760
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,8,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:05.947110
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,9,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:06.319265
+11,"[9, 9, 9, 3, 3]",5,12,high,three_blanks,10,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:06.691571
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,1,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:07.111124
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,2,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:07.492385
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,3,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:07.863717
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,4,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:08.236427
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,5,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:08.632566
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,6,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:09.008970
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,7,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:09.397736
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,8,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:09.769290
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,9,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:10.136381
+12,"[9, 9, 9, 0, 0]",5,12,high,three_blanks,10,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:10.506769
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,1,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:10.950020
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,2,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:11.327156
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,3,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:11.710433
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,4,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:12.081142
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,5,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:12.439437
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,6,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:12.805495
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,7,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:13.168781
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,8,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:13.592631
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,9,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:13.961049
+13,"[9, 9, 3, 3, 3]",5,12,high,three_blanks,10,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:14.295135
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,1,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:14.726227
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,2,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:15.098850
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,3,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:15.471895
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,4,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:48:15.824975
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,5,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:16.194735
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,6,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:16.552963
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,7,most,all,right,most of the students got all of the answers right,"Most, all, right",True,2026-03-27T01:48:16.960058
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,8,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:17.333290
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,9,some,most,right,some of the students got most of the answers right,"Some, most, right",True,2026-03-27T01:48:17.680471
+14,"[9, 9, 3, 0, 0]",5,12,high,three_blanks,10,most,most,right,most of the students got most of the answers right,"Most, most, right",True,2026-03-27T01:48:18.051616
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,1,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:18.513422
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,2,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:18.891600
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,3,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:19.236487
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,4,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:19.628649
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,5,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:19.967123
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,6,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:20.334883
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,7,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:20.706178
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,8,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:21.076250
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,9,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:21.398948
+15,"[9, 9, 0, 0, 0]",5,12,high,three_blanks,10,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:21.764901
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,1,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:22.177109
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,2,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:22.560613
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,3,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:22.926749
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,4,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:23.301521
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,5,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:23.686096
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,6,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:24.074817
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,7,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:24.436313
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,8,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:24.810536
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,9,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:48:25.185746
+16,"[3, 3, 3, 3, 3]",5,12,high,three_blanks,10,most,some,right,most of the students got some of the answers right,"Most, some, right",True,2026-03-27T01:48:25.530653
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,1,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:25.955392
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,2,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:26.322495
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,3,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:26.686848
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,4,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:27.056429
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,5,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:27.403413
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,6,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:27.767851
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,7,most,some,right,most of the students got some of the answers right,"Most, some, right",True,2026-03-27T01:48:28.123452
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,8,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:28.588151
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,9,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:28.941529
+17,"[3, 3, 3, 0, 0]",5,12,high,three_blanks,10,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:29.313331
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,1,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:29.723127
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,2,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:30.090731
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,3,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:30.462749
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,4,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:30.847244
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,5,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:31.219941
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,6,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:31.594289
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,7,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:31.973642
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,8,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:32.352481
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,9,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:32.732789
+18,"[3, 3, 0, 0, 0]",5,12,high,three_blanks,10,some,some,right,some of the students got some of the answers right,"Some, some, right",True,2026-03-27T01:48:33.092125
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,1,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:33.574712
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,2,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:33.980160
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,3,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:34.369532
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,4,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:34.728662
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,5,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:35.101138
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,6,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:35.467465
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,7,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:35.865500
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,8,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:36.221853
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,9,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:36.589324
+19,"[0, 0, 0, 0, 0]",5,12,high,three_blanks,10,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:48:36.951817
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,1,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:37.385932
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,2,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:37.773496
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,3,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:38.142322
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,4,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:38.586418
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,5,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:38.937276
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,6,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:39.317604
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,7,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:39.719099
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,8,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:40.078623
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,9,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:40.438744
+0,"[12, 12, 12, 12, 12]",5,12,low,three_blanks,10,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:48:40.804159
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:41.218115
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:41.612446
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:41.993333
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:42.353272
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:42.727800
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:43.087770
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:43.535629
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:43.908608
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:44.277111
+1,"[12, 12, 12, 3, 3]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:44.653695
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:45.069341
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:45.442447
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:45.803209
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:46.169526
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:46.540812
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:46.896025
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:47.283082
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:47.665426
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:48.026184
+2,"[12, 12, 12, 9, 9]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:48.427901
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:48.847803
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:49.237290
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:49.597774
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:49.975244
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:50.345598
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:50.702919
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:51.090550
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:51.471880
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:51.820210
+3,"[12, 12, 12, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:52.196039
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:52.629294
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:53.020781
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:53.421923
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:53.823946
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:54.213873
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:54.575211
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:54.971214
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:55.339450
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:55.715947
+4,"[12, 12, 9, 9, 9]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:56.095593
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:56.534191
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:56.923658
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:57.281308
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:57.647747
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:58.020892
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:58.427141
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:58.833294
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:59.190142
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:59.562653
+5,"[12, 12, 9, 3, 3]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:48:59.930799
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:00.349861
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:00.727346
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:01.094408
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:01.458716
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:01.838356
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:02.203492
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:02.622227
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:02.984672
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:03.372928
+6,"[12, 12, 9, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:03.769737
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:04.178157
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:04.558383
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:04.938689
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:05.291279
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:05.657181
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:06.001780
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:06.372968
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:06.739655
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:07.124067
+7,"[12, 12, 3, 3, 3]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:07.498993
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:07.908582
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:08.287176
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:08.698304
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:09.066897
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:09.443561
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:09.801864
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:10.186962
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:10.556824
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:10.931156
+8,"[12, 12, 3, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:11.309506
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,1,most,some,wrong,most of the students got some of the answers wrong,"Most, some, wrong",True,2026-03-27T01:49:11.730107
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:12.115689
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:12.483621
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:12.872107
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:13.235332
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:13.674441
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:14.076812
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,8,most,some,wrong,most of the students got some of the answers wrong,"Most, some, wrong",True,2026-03-27T01:49:14.457761
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,9,most,some,wrong,most of the students got some of the answers wrong,"Most, some, wrong",True,2026-03-27T01:49:14.810795
+9,"[12, 12, 0, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:15.181210
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,1,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:15.613051
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,2,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:16.003575
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,3,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:16.391730
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,4,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:16.762589
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,5,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:17.143218
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,6,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:17.502231
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,7,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:17.886683
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,8,all,all,right,all of the students got all of the answers right,"All, all, right",True,2026-03-27T01:49:18.251502
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,9,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:18.682351
+10,"[9, 9, 9, 9, 9]",5,12,low,three_blanks,10,all,some,right,all of the students got some of the answers right,"All, some, right",True,2026-03-27T01:49:19.054937
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:19.470793
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:19.864339
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:20.247594
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:20.623771
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:20.996928
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:21.369061
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:21.744909
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:22.100478
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:22.479410
+11,"[9, 9, 9, 3, 3]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:22.853739
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:23.285637
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:23.712417
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:24.074558
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:24.432702
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:24.797641
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:25.150907
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:25.554087
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:25.927477
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:26.292227
+12,"[9, 9, 9, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:26.690678
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:27.117126
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:27.491238
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:27.851495
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:28.224535
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:28.635222
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:29.008974
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:29.406371
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:29.772636
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:30.150956
+13,"[9, 9, 3, 3, 3]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:30.517435
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:30.942550
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:31.318943
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:31.699905
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:32.066144
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:32.437924
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:32.785749
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:33.153992
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:33.578691
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:33.936129
+14,"[9, 9, 3, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:34.312526
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:34.731253
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:35.120217
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:35.483052
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,4,most,some,wrong,most of the students got some of the answers wrong,"Most, some, wrong",True,2026-03-27T01:49:35.851675
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:36.205538
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,6,most,some,wrong,most of the students got some of the answers wrong,"Most, some, wrong",True,2026-03-27T01:49:36.588705
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:36.980248
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:37.356436
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,9,most,some,wrong,most of the students got some of the answers wrong,"Most, some, wrong",True,2026-03-27T01:49:37.712184
+15,"[9, 9, 0, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:38.095870
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,1,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:38.549447
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:38.929427
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,3,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:39.293732
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,4,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:39.667539
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,5,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:40.039875
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,6,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:40.428159
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,7,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:40.796112
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,8,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:41.174735
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,9,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:41.547192
+16,"[3, 3, 3, 3, 3]",5,12,low,three_blanks,10,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:41.925485
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:42.334148
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:42.726879
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:43.094822
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:43.478590
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:43.844881
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:44.203940
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:44.578754
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:44.934891
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:45.305863
+17,"[3, 3, 3, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:45.667982
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,1,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:46.098726
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,2,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:46.459659
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,3,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:46.840947
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,4,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:47.201043
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,5,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:47.565720
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,6,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:47.916264
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,7,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:48.307376
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,8,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:48.747017
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,9,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:49.123237
+18,"[3, 3, 0, 0, 0]",5,12,low,three_blanks,10,some,some,wrong,some of the students got some of the answers wrong,"Some, some, wrong",True,2026-03-27T01:49:49.512546
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,1,all,all,wrong,all of the students got all of the answers wrong,"All, all, wrong",True,2026-03-27T01:49:49.930679
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,2,all,none,wrong,all of the students got none of the answers wrong,"All, none, wrong",True,2026-03-27T01:49:50.311473
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,3,all,none,wrong,all of the students got none of the answers wrong,"All, none, wrong",True,2026-03-27T01:49:50.672303
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,4,all,none,wrong,all of the students got none of the answers wrong,"All, none, wrong",True,2026-03-27T01:49:51.055057
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,5,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:51.426520
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,6,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:51.813362
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,7,all,all,wrong,all of the students got all of the answers wrong,"All, all, wrong",True,2026-03-27T01:49:52.174274
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,8,all,all,wrong,all of the students got all of the answers wrong,"All, all, wrong",True,2026-03-27T01:49:52.547944
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,9,all,some,wrong,all of the students got some of the answers wrong,"All, some, wrong",True,2026-03-27T01:49:52.900880
+19,"[0, 0, 0, 0, 0]",5,12,low,three_blanks,10,all,none,wrong,all of the students got none of the answers wrong,"All, none, wrong",True,2026-03-27T01:49:53.256111
